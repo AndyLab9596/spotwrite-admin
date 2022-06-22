@@ -1,0 +1,108 @@
+image: node:12-alpine
+
+definitions:
+  steps:
+    - step: &step-test
+        caches:
+          - node
+        name: Test
+        script:
+          - apk update
+          - yarn install
+          - yarn run lint
+          - yarn run lint:style
+          - yarn run generate # 型定義のチェックをしてほしいので実行している
+          - yarn run test
+          - echo "Everything is awesome!"
+
+pipelines:
+  default:
+    - step: *step-test
+  branches:
+    develop:
+      - step: *step-test
+      - step:
+          name: Build
+          image: node:12
+          script:
+            - yarn install
+            - yarn run generate:development
+          artifacts:
+            - dist/**
+      - step:
+          name: Deploy to S3
+          image: atlassian/default-image:2
+          deployment: staging
+          script:
+            - export AWS_ACCESS_KEY_ID=${DEV_AWS_ACCESS_KEY_ID}
+            - export AWS_SECRET_ACCESS_KEY=${DEV_AWS_SECRET_ACCESS_KEY}
+            - pipe: atlassian/aws-s3-deploy:0.4.4
+              variables:
+                AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
+                AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
+                AWS_DEFAULT_REGION: "ap-northeast-1"
+                S3_BUCKET: "dev-spotwrite-admin"
+                LOCAL_PATH: "dist/"
+                DELETE_FLAG: "true"
+      - step:
+          name: Sync apple-app-site-association
+          image: atlassian/pipelines-awscli
+          script:
+            - export AWS_ACCESS_KEY_ID=${DEV_AWS_ACCESS_KEY_ID}
+            - export AWS_SECRET_ACCESS_KEY=${DEV_AWS_SECRET_ACCESS_KEY}
+            - aws s3 cp --content-type "application/json" apple-app-site-association s3://dev-spotwrite-admin/
+    master:
+      - step:
+          name: Build
+          image: node:12
+          script:
+            - yarn install
+            - yarn run generate:staging
+          artifacts:
+            - dist/**
+      - step:
+          name: Deploy to S3
+          image: atlassian/default-image:2
+          deployment: staging
+          script:
+            - pipe: atlassian/aws-s3-deploy:0.4.4
+              variables:
+                AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
+                AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
+                AWS_DEFAULT_REGION: "ap-northeast-1"
+                S3_BUCKET: "stg-spotwrite-admin"
+                LOCAL_PATH: "dist/"
+                DELETE_FLAG: "true"
+      - step:
+          name: Sync apple-app-site-association
+          image: atlassian/pipelines-awscli
+          script:
+            - aws s3 cp --content-type "application/json" apple-app-site-association s3://stg-spotwrite-admin/
+  tags:
+    release/*:
+      - step:
+          name: Build
+          image: node:12
+          script:
+            - yarn install
+            - yarn run generate:production
+          artifacts:
+            - dist/**
+      - step:
+          name: Deploy to S3
+          image: atlassian/default-image:2
+          deployment: production
+          script:
+            - pipe: atlassian/aws-s3-deploy:0.4.4
+              variables:
+                AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
+                AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
+                AWS_DEFAULT_REGION: "ap-northeast-1"
+                S3_BUCKET: "prd-spotwrite-admin"
+                LOCAL_PATH: "dist/"
+                DELETE_FLAG: "true"
+      - step:
+          name: Sync apple-app-site-association
+          image: atlassian/pipelines-awscli
+          script:
+            - aws s3 cp --content-type "application/json" apple-app-site-association s3://prd-spotwrite-admin/

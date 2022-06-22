@@ -1,0 +1,11 @@
+<svg id="icon_wm" data-name="icon/wm" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <rect id="Rectangle_3982" data-name="Rectangle 3982" width="28" height="28" fill="red" opacity="0"/>
+  <g id="Group_4809" data-name="Group 4809" transform="translate(0 -1)">
+    <circle id="Ellipse_2084" data-name="Ellipse 2084" cx="4" cy="4" r="4" transform="translate(15 8)" fill="none" stroke="#90747f" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_799" data-name="Line 799" x1="4.346" transform="translate(16.873 18.816)" fill="none" stroke="#90747f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_800" data-name="Line 800" y2="5.942" transform="translate(19.026 16.059)" fill="none" stroke="#90747f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <circle id="Ellipse_2085" data-name="Ellipse 2085" cx="4" cy="4" r="4" transform="translate(5 13.941)" fill="none" stroke="#90747f" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Path_1473" data-name="Path 1473" d="M54.535,490.505l2.263-2.256,2.263,2.256" transform="translate(-47.752 -480.25)" fill="none" stroke="#90747f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_801" data-name="Line 801" y1="5.942" transform="translate(9.066 8)" fill="none" stroke="#90747f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="52" height="32" viewBox="0 0 52 32">
+  <defs>
+    <filter id="Knob" x="0" y="1.5" width="32" height="33.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_8355" data-name="Group 8355" transform="translate(-15652 -14427)">
+    <rect id="Background" width="52" height="32" rx="16" transform="translate(15652 14427)" fill="#9c9da5"/>
+    <g transform="matrix(1, 0, 0, 1, 15652, 14427)" filter="url(#Knob)">
+      <g id="Knob-2" data-name="Knob" transform="translate(2 2)" fill="#fff" stroke="rgba(0,0,0,0.04)" stroke-miterlimit="10" stroke-width="0.5">
+        <rect width="28" height="28" rx="14" stroke="none"/>
+        <rect x="-0.25" y="-0.25" width="28.5" height="28.5" rx="14.25" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

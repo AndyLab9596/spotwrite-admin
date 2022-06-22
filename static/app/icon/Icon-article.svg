@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
+  <g id="Icon_article" data-name="Icon/article" transform="translate(0.5 0.5)">
+    <g id="グループ_1895" data-name="グループ 1895">
+      <path id="パス_1032" data-name="パス 1032" d="M451.735,299.716h0a1.619,1.619,0,0,1,1.577,1.658V308.2a2.7,2.7,0,0,1-2.629,2.766H439.057a1.792,1.792,0,0,1-1.745-1.836V296.054a1.056,1.056,0,0,1,1.028-1.083h12.367a1.056,1.056,0,0,1,1.028,1.083v11.87" transform="translate(-437.312 -294.971)" fill="none" stroke="#7e8195" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <rect id="長方形_1367" data-name="長方形 1367" width="10.446" height="5.535" rx="1.055" transform="translate(1.856 1.759)" fill="#7e8195"/>
+      <line id="線_649" data-name="線 649" x2="9.536" transform="translate(2.361 9.292)" fill="#898c9e" stroke="#7e8195" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_650" data-name="線 650" x2="9.536" transform="translate(2.361 11.474)" fill="#898c9e" stroke="#7e8195" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_651" data-name="線 651" x2="9.536" transform="translate(2.361 13.656)" fill="#898c9e" stroke="#7e8195" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

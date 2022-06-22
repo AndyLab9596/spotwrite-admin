@@ -1,0 +1,41 @@
+html {
+  font-family: 'Hiragino Kaku Gothic Pro', sans-serif;
+  font-size: 13px;
+  color: $dark_blue;
+}
+
+/* Layout */
+
+.l-page-container {
+  padding-bottom: 100px;
+}
+
+.l-page {
+  width: 960px;
+  min-height: calc(100% - 128px);
+  margin-left: 40px;
+}
+
+.l-contents {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 15px;
+  padding: 24px 30px;
+  border: solid 1px $light_gray_blue_3;
+  border-radius: 4px;
+}
+
+.error-text {
+  font-size: 0.8em;
+  font-weight: bold;
+  color: red;
+}
+
+@font-face {
+  font-family: 'Alex Brush Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/fonts/alex-brush-regular.ttf') format('truetype');
+}

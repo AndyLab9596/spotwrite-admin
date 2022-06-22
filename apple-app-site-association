@@ -1,0 +1,14 @@
+{
+	"applinks": {
+		"apps": [],
+		"details": [{
+			"appID": "B7Y8M62CFA.jp.worksmedia.spotwrite",
+			"paths": [
+				"*"
+			]
+		}]
+	},
+	"webcredentials": {
+		"apps": ["B7Y8M62CFA.jp.worksmedia.spotwrite"]
+	}
+}

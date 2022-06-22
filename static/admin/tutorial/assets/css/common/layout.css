@@ -1,0 +1,130 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+/*------------------------------------------------------------
+	デフォルトスタイル
+------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	border: 0;
+	outline: 0;
+	font-size: 1em;
+}
+html {
+	font-size: 62.5%;
+}
+body, table, input, textarea, select, option {
+	font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, Osaka, sans-serif;
+}
+
+.josefin {
+    font-family: 'Josefin Sans', sans-serif;
+}
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+:focus {
+	outline: 0;
+}
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+img {
+	vertical-align: top;
+	max-width: 100%;
+    height: auto;
+}
+a,
+a:link {
+	color: #80550D;
+	text-decoration: none;
+}
+a:visited {
+	color: #80550D;
+}
+a:hover {
+	color: #80550D;
+}
+a:active {
+	color: #80550D;
+}
+/*------------------------------------------------------------
+	レイアウト
+------------------------------------------------------------*/
+body {
+	min-width: 1280px;
+	color: #80550D;
+	font-size: 1.5rem;
+	line-height: 1.5;
+	text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	background-color: #8A8FAF;
+}
+#container {
+	text-align: left;
+	position: relative;
+}
+#main {
+}
+a[href^="tel:"] {
+	cursor: default;
+	pointer-events: none;
+}
+@media all and (min-width: 897px) {
+	.sp {
+		display: none !important;
+	}
+}
+@media all and (max-width: 896px) {
+	body {
+		min-width: inherit;
+		font-size: 1.2rem;
+	}
+	a:hover,
+	a:hover img {
+		opacity: 1 !important;
+	}
+	.pc {
+		display: none !important;
+	}
+	a[href^="tel:"] {
+		cursor: pointer;
+		pointer-events: auto;
+	}
+}
+/*------------------------------------------------------------
+	ヘッダー
+------------------------------------------------------------*/
+#gHeader {
+    padding: 20px 0;
+}
+#gHeader h1 {
+    text-align: center;
+}
+@media all and (max-width: 896px) {
+	#gHeader {
+	}
+}
+/*------------------------------------------------------------
+	フッター
+------------------------------------------------------------*/
+#gFooter {
+}
+@media all and (max-width: 896px) {
+}
+
+#main {
+    padding-bottom: 43px;
+    margin: 0 auto;
+    width: 1200px;
+}

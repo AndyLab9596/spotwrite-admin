@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="button-close" transform="translate(-827 -363)">
+    <rect id="長方形_4933" data-name="長方形 4933" width="28" height="28" transform="translate(827 363)" fill="#fff"/>
+    <g id="Icon_close_w_large_B" data-name="Icon/close_w_large_B" transform="translate(833 369)">
+      <line id="線_879" data-name="線 879" x2="16" y2="16" fill="none" stroke="#7e8195" stroke-width="1"/>
+      <line id="線_880" data-name="線 880" x2="16" y2="16" transform="translate(16) rotate(90)" fill="none" stroke="#7e8195" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

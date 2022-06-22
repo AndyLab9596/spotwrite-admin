@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.865" x2="0.142" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f09c9c"/>
+      <stop offset="1" stop-color="#7e8195"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_4978" data-name="Group 4978" transform="translate(-32 -732)">
+    <g id="Icon_tel2" data-name="Icon/tel2" transform="translate(32 732)">
+      <rect id="Rectangle_3988" data-name="Rectangle 3988" width="28" height="28" fill="red" opacity="0"/>
+      <g id="Group_4806" data-name="Group 4806" transform="translate(0 -1)">
+        <g id="Rectangle_2033" data-name="Rectangle 2033" transform="translate(6 7)" fill="none" stroke="#90747f" stroke-miterlimit="10" stroke-width="1">
+          <rect width="17" height="16" rx="0.986" stroke="none"/>
+          <rect x="0.5" y="0.5" width="16" height="15" rx="0.486" fill="none"/>
+        </g>
+        <g id="Rectangle_2034" data-name="Rectangle 2034" transform="translate(12.058 9.846)" fill="none" stroke="#90747f" stroke-miterlimit="10" stroke-width="1">
+          <rect width="7.885" height="4.188" rx="0.989" stroke="none"/>
+          <rect x="0.5" y="0.5" width="6.885" height="3.188" rx="0.489" fill="none"/>
+        </g>
+        <g id="Group_3289" data-name="Group 3289" transform="translate(-192.126 -481.486)">
+          <g id="Group_3286" data-name="Group 3286">
+            <line id="Line_853" data-name="Line 853" x2="1.833" transform="translate(203.834 497.473)" fill="none" stroke="#90747f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+            <line id="Line_854" data-name="Line 854" x2="1.833" transform="translate(207.294 497.473)" fill="none" stroke="#90747f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+            <line id="Line_855" data-name="Line 855" x2="1.833" transform="translate(210.753 497.473)" fill="none" stroke="#90747f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+          </g>
+          <g id="Group_3287" data-name="Group 3287">
+            <line id="Line_856" data-name="Line 856" x2="1.833" transform="translate(203.834 499.587)" fill="none" stroke="#90747f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+            <line id="Line_857" data-name="Line 857" x2="1.833" transform="translate(207.294 499.587)" fill="none" stroke="#90747f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+            <line id="Line_858" data-name="Line 858" x2="1.833" transform="translate(210.753 499.587)" fill="none" stroke="#90747f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+          </g>
+          <g id="Group_3288" data-name="Group 3288">
+            <line id="Line_859" data-name="Line 859" x2="1.833" transform="translate(203.834 501.701)" fill="none" stroke="#90747f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+            <line id="Line_860" data-name="Line 860" x2="1.833" transform="translate(207.294 501.701)" fill="none" stroke="#90747f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+            <line id="Line_861" data-name="Line 861" x2="1.833" transform="translate(210.753 501.701)" fill="none" stroke="#90747f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+          </g>
+        </g>
+        <line id="Line_862" data-name="Line 862" y2="14.919" transform="translate(9.797 7.652)" fill="none" stroke="#90747f" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+    </g>
+    <rect id="Rectangle_4029" data-name="Rectangle 4029" width="28" height="28" rx="11" transform="translate(32 732)" opacity="0.15" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

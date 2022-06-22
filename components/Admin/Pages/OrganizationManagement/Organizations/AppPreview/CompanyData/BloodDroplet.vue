@@ -1,0 +1,31 @@
+<template>
+  <span>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="40"
+      height="50"
+      viewBox="0 0 40 50"
+    >
+      <path
+        id="Path_1281"
+        data-name="Path 1281"
+        d="M255.15,689.625a19.941,19.941,0,0,0,20-19.657c0-15.064-20-30.343-20-30.343s-20,15.387-20,30.343A19.668,19.668,0,0,0,255.15,689.625Z"
+        transform="translate(-235.15 -639.625)"
+        :fill="color"
+      />
+    </svg>
+  </span>
+</template>
+
+<script lang="ts">
+import Vue from 'vue';
+
+export default Vue.extend({
+  props: {
+    color: {
+      type: String,
+      default: '#fff',
+    },
+  },
+});
+</script>

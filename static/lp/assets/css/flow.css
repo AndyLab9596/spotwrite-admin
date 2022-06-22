@@ -1,0 +1,132 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	index
+------------------------------------------------------------*/
+#main  {
+	margin-bottom: 0 !important;
+}
+.headLine01 {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+.comInfo02 {
+	margin-bottom: 58px;
+	padding: 34px 40px 36px;
+	width: 732px;
+}
+#main .bg {
+	padding-bottom: 47px;
+	position: relative;
+}
+#main .bg::before {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background: #EEF3F6;
+	content: '';
+	z-index: -1;
+}
+#main .stepUl li {
+	margin-bottom: 56px;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	background-color: #FFF;
+	border-radius: 8px;
+}
+#main .stepUl li:last-child {
+	margin-bottom: 0;
+}
+#main .stepUl li .photo {
+	width: 48.8%;
+	border-radius: 0 8px 8px 0;
+	overflow: hidden;
+}
+#main .stepUl li .photo img {
+	width: 100%;
+}
+#main .stepUl li .textBox {
+	padding: 59px 24px 10px 170px;
+	flex: 1;
+}
+#main .stepUl li .order {
+	padding: 4px 2px 3px;
+	width: 86px;
+	position: absolute;
+	left: 130px;
+	top: -16px;
+	font-size: 1.6rem;
+	font-weight: 600;
+	color: #fff;
+	background: #E58C33;
+	border-radius: 8px 8px 8px 0;
+	text-align: center;
+	box-sizing: border-box;
+}
+#main .stepUl li .order::before {
+	position: absolute;
+	width: 16px;
+	height: 14px;
+	left: 0;
+	bottom: -12px;
+	background: url("../image/flow/icon01.png") no-repeat left top / 100% 100%;
+	content: '';
+}
+#main .stepUl li .order span {
+	font-size: 1.8rem;
+}
+#main .stepUl li .textBox h4 {
+	margin-bottom: 14px;
+	font-size: 2.4rem;
+	line-height: 1.416;
+}
+#main .stepUl li .textBox .comBtn {
+	margin-top: 19px;
+	text-align: left;
+}
+#main .stepUl li .textBox .comBtn a {
+	max-width: 160px;
+	text-align: center;
+}
+@media all and (max-width: 896px) {
+	#main .bg {
+		padding-bottom: 40px;
+	}
+	#main .bg::before {
+		bottom: 0;
+	}
+	.comInfo02 {
+		margin: -59px 0 18px;
+		padding: 19px 25px;
+		width: auto;
+	}
+	#main .stepUl li {
+		margin-bottom: 42px;
+		display: block;
+	}
+	#main .stepUl li .textBox {
+				padding: 49px 24px 19px;
+
+	}
+	#main .stepUl li .photo {
+		width: auto;
+		border-radius: 0 0 8px 8px;
+	}
+	#main .stepUl li .order {
+		left: 16px;
+		top: -18px;
+	}
+	#main .stepUl li .textBox h4 {
+		margin-bottom: 6px;
+	}
+	#main .stepUl li .photo01 {
+		border-radius: 0;
+	}
+	#main .stepUl li .comBtn {
+		padding: 23px 5px;
+	}
+	#main .stepUl li .comBtn a {
+		max-width: 297px;
+	}
+}

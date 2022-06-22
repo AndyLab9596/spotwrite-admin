@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<title>プロフィール・配属履歴を確認する</title>
+<link rel="stylesheet" type="text/css" href="assets/js/jquery.fancybox.css">
+<link rel="stylesheet" type="text/css" href="assets/js/jquery.jscrollpane.css">
+<link rel="stylesheet" type="text/css" href="assets/css/common/layout.css">
+<link rel="stylesheet" type="text/css" href="assets/css/common/general.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<script src="assets/js/head.js"></script>
+</head>
+<body>
+<div id="container">
+    <header id="gHeader">
+        <div class="hInner">
+            <h1><a href="./"><img src="assets/image/common/logo.png" alt="Spotwrite" width="112"></a></h1>
+        </div>
+    </header>
+    <div id="main">
+        <div class="member-information-profile">
+            <div class="prevLink"><a href="#">戻る</a></div>
+            <section class="topTtlBox">
+                <h2><span class="txtSpan">メンバー情報登録の説明</span>プロフィール・配属履歴を確認する</h2>
+            </section>
+            <div class="content">
+                <div class="comBox">
+                    <div class="subBox">
+                        <p><strong>プロフィールは基本的に、アカウント発行後にユーザー自身がプロフィール登録画面から登録する情報です。<br>
+                            管理者も編集ができます。<br>
+                            パーソナルなプロフィール情報のほかに配属履歴を登録することもでき、<br>
+                            ユーザー画面でそのユーザーのことがよくわかるようになります。</strong></p>
+                    </div>
+                    <div class="photo"><img src="assets/image/common/com_box_photo.png" alt="メンバー情報登録の説明 プロフィール・配属履歴を確認する" width="105"></div>
+                </div>
+                <div class="mainBox">
+                    <div class="comRightBox">
+                        <div class="comInner">
+                            <p class="comNum purple josefin">01</p>
+                            <p><strong>写真・生年月日・性別を入力する</strong></p>
+                            <p>アイコン写真と生年月日、性別を選択します。<br>
+                                アイコン写真は正方形のものを使用することをお勧めします。</p>
+                        </div>
+                        <div class="comInner">
+                            <p class="comNum purple josefin">02</p>
+                            <p><strong>使用言語を選択する</strong></p>
+                            <p>メンバーの使用言語を選択します。<br>
+                                記事やメッセージ機能で翻訳機能を使用する際、設定された言語が使用されます。</p>
+                            <div class="detailsLink"><a data-fancybox data-src="#pop01" href="javascript:void(0);"><span class="subSpan">使用言語を詳しく見る</span></a></div>
+                        </div>
+                        <div class="comInner">
+                            <p class="comNum purple josefin">03</p>
+                            <p><strong>出身地や入社年などを入力する</strong></p>
+                            <p>出身地・携帯電話番号・社用電話番号・内線番号・入社年を入力します。<br>
+                                出身地は日本と海外を選択でき、市町村まで自由入力できます。社内のコミュニケーションのきっかけにもなるため、できるだけ詳しく入力しましょう。</p>
+                        </div>
+                        <div class="comInner">
+                            <p class="comNum purple josefin">04</p>
+                            <p><strong>サブで所属する組織を入力する</strong></p>
+                            <p>メインで所属している組織の他に、複数の組織を兼任する場合はサブで所属する組織を設定することができます。<br>
+                                サブで設定すると、その組織のサブメンバーとして表示されるようになります。</p>
+                            <div class="detailsLink"><a data-fancybox data-src="#pop02" href="javascript:void(0);"><span class="subSpan">サブ組織を詳しく見る</span></a></div>
+                        </div>
+                        <div class="comInner">
+                            <p class="comNum purple josefin">05</p>
+                            <p><strong>フリー設問を登録する</strong></p>
+                            <p>フリー設問の回答を入力できます。<br>
+                                フリー設問のお題は、<a href="master-setting.html" class="pinkLink">マスタ設定</a>のプロフィール項目でタイトルを変更することができます。</p>
+                            <div class="detailsLink"><a href="master-setting.html">マスタ設定へ</a></div>
+                        </div>
+                        <div class="comInner">
+                            <p class="comNum purple josefin">06</p>
+                            <p><strong>配属履歴を登録する</strong></p>
+                            <p>メンバーの配属履歴が登録できます。<br>
+                                ユーザー自身、管理者が両方で登録ができます。<br>
+                                備考には、その組織でのポジションなどを入力しましょう。<br>
+                                そのメンバーにどんな経歴があるか社内のひとがわかるようになります。</p>
+                        </div>
+                        <div class="featuresBox">
+                            <h3><img src="assets/image/common/features_img.png" alt="関連機能" width="28">関連機能</h3>
+                            <ul class="linkUl">
+                                <li><a href="organization-registration.html">組織図(BOX)登録</a></li>
+                                <li><a href="organization-list.html">組織一覧</a></li>
+                                <li><a href="company-detail.html">会社詳細</a></li>
+                                <li><a href="organization-detail.html">組織詳細</a></li>
+                                <li><a href="member-registration-required.html">メンバー登録</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="comLeftBox">
+                        <div class="comTextImg"><img src="assets/image/member-information-profile/photo.png" alt="メンバー情報登録の説明 プロフィール・配属履歴を確認する">
+                            <p class="text text06">[01]と[02]は本登録時にユーザー自身が既に登録しています。</p>
+                            <p class="text text04">プロフィール項目は「保存する」ボタンで保存ができます</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popBox popBox04" id="pop01">
+		<div class="popInner">
+			<div class="popClose"><a href="javascript:void(0);" data-fancybox-close=""><img src="assets/image/common/button_close.png" alt="close" width="28"></a></div>
+			<h2 class="popTtl">使用言語を設定する</h2>
+			<div class="popScroll scroll-pane">
+				<div class="subScroll"><div class="comBox">
+					<p>Spotwriteには、記事や組織の概要、メッセージを翻訳できる機能があります。<br>そこで翻訳される言語は、メンバーごとに設定された「使用言語」から自動的に選択されます。<br>Spotwriteでのグローバルなやりとりを後押しする機能です！</p>
+					<div class="featuresBox features_through">
+						<h3><img src="assets/image/common/features_img.png" alt="関連機能" width="28">関連機能</h3>
+						<ul class="linkUl">
+							<li><a href="organization-registration.html">組織(box)登録</a></li>
+							<li><a href="member-information-profile.html">メンバープロフィール</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="mainBox">
+					<div class="comInner">
+						<p class="comNum pink josefin">01</p>
+						<p>使用言語は、メンバーの登録時に設定が可能です。<br>ユーザーが自分のアカウントを登録する際に自分で選択し、プロフィールで自由に変更することもできます。</p>
+						<p>翻訳に使用するメインの使用言語を一つ設定できるほかに、複数の言語を設定してプロフィールに記載することもできます。<br>メンバーが使える言語を知って、コミュニケーションのきっかけを生みましょう。</p>
+					</div>
+					<div class="img img03"><img src="assets/image/member-registration-addition/pop_img01.png" width="609" alt="使用言語を設定する"><span class="posTxt02">使用言語は複数選択可能！<br>プロフィールに記載できます</span></div>
+				</div>
+				<hr class="popLine">
+				<div class="img img02"><img src="assets/image/member-registration-addition/pop_img02.png" width="755" alt="使用言語を設定する"><span class="posTxt01">従業員画面</span><span class="posTxt02 txt03">ユーザーそれぞれのメイン言語で翻訳されます</span></div></div>
+			</div>
+		</div>
+	</div>
+    <div class="popBox popBox02" id="pop02">
+        <div class="popInner">
+            <div class="popClose"><a href="javascript:void(0);" data-fancybox-close=""><img src="assets/image/common/button_close.png" alt="close" width="28"></a></div>
+            <h2 class="popTtl">サブ組織を設定する</h2>
+            <div class="popScroll scroll-pane">
+                <div class="subScroll"><div class="comBox">
+                    <p>ユーザー一人につき、メインの組織とは他にサブで所属する組織を複数選べます。<br>
+                        サブで所属すると、その組織のサブメンバーとしてメンバーリストに表示されたり、利用度の集計時にメンバーとしてカウントされます。<br>
+                        複数の組織を兼任しているマネージャーやリーダーなどにおすすめの機能です。</p>
+                    <div class="featuresBox features_through">
+                        <h3><img src="assets/image/common/features_img.png" alt="関連機能" width="28">関連機能</h3>
+                        <ul class="linkUl">
+                            <li><a href="organization-registration.html">組織（BOX）登録</a></li>
+                            <li><a href="member-list.html">メンバー一覧</a></li>
+                            <li><a href="master-setting.html">マスタ設定</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mainBox">
+                    <div class="lBox"><img src="assets/image/member-registration-all/pop_img01.png" width="449" alt="サブ組織を設定する"><span class="stepTxt">Step1</span></div>
+                    <div class="rBox">
+                        <div class="comInner comInner01">
+                            <p class="txt">まずは、メンバー詳細やメンバー登録画面でメンバーのサブ組織を設定します。<br>
+                                すると、Spotwriteのメンバーリストにそのメンバーがサブ所属として表示されるようになります。</p>
+                        </div>
+                        <div class="img"><img src="assets/image/member-registration-all/pop_img02.png" width="305" alt="サブ組織を設定する"><span class="stepTxt">Step2</span></div>
+                    </div>
+                </div>
+                <hr class="popLine">
+                <div class="mainBox mainBox01">
+                    <div class="comInner">
+                        <p class="comNum pink josefin">02</p>
+                        <p><strong>組織の代表者をサブメンバーから選べます</strong></p>
+                        <p>組織の代表者を選ぶときに、サブメンバーからも選ぶことができます。<br>
+                            複数の部署を統括する人がリーダーとしてメッセージを書くことができます。</p>
+                    </div>
+                    <div class="rBox"><img src="assets/image/member-registration-all/pop_img03.png" width="410" alt="サブ組織を設定する"></div>
+                </div>
+                <hr class="popLine">
+                <div class="mainBox mainBox02">
+                    <div class="comInner">
+                        <p class="comNum pink josefin">03</p>
+                        <p><strong>利用度やモチベーションチェック、会社データの対象になります</strong></p>
+                        <p>サブで所属するメンバーも、その組織の集計対象になります。会社データや利用度やモチベーションチェックなど、組織ごとに集計する項目はサブメンバーも自動的に含まれます。</p>
+                    </div>
+                    <div class="comInner">
+                        <p class="comNum pink josefin">04</p>
+                        <p><strong>メンバー一覧で組織を絞り込んだ時に表示されます</strong></p>
+                        <p>メンバー一覧で組織を絞り込んだ時、サブで所属しているメンバーはサブフラグの状態で表示されます。</p>
+                    </div>
+                </div>
+                <ul class="imgList">
+                    <li><img src="assets/image/member-registration-all/pop_img04.png" alt="サブ組織を設定する"></li>
+                    <li><img src="assets/image/member-registration-all/pop_img05.png" alt="サブ組織を設定する"></li>
+                    <li><img src="assets/image/member-registration-all/pop_img06.png" alt="サブ組織を設定する"></li>
+                </ul></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="assets/js/jquery-1.12.4.min.js"></script> 
+<script src="assets/js/jquery.matchHeight.js"></script> 
+<script src="assets/js/jquery.fancybox.js"></script> 
+<script src="assets/js/jquery.mousewheel.js"></script> 
+<script src="assets/js/jquery.jscrollpane.js"></script> 
+<script src="assets/js/common.js"></script>
+</body>
+</html>

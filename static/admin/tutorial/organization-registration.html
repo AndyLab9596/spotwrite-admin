@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<title>組織登録の説明</title>
+<link rel="stylesheet" type="text/css" href="assets/js/jquery.fancybox.css">
+<link rel="stylesheet" type="text/css" href="assets/js/jquery.jscrollpane.css">
+<link rel="stylesheet" type="text/css" href="assets/css/common/layout.css">
+<link rel="stylesheet" type="text/css" href="assets/css/common/general.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<script src="assets/js/head.js"></script>
+</head>
+<body>
+<div id="container">
+    <header id="gHeader">
+        <div class="hInner">
+            <h1><a href="./"><img src="assets/image/common/logo.png" alt="Spotwrite" width="112"></a></h1>
+        </div>
+    </header>
+    <div id="main">
+        <div class="organization-registration">
+            <section class="topTtlBox">
+                <h2>組織登録の説明</h2>
+            </section>
+            <div class="content">
+                <div class="comBox">
+                    <div class="subBox">
+                        <h3>メンバー登録のベースになる組織図を登録する画面です。</h3>
+                        <p>組織体制を整理しながら、直感的に登録出来るよう色や形でイメージ出来るようになっています。完成後も自由に移動させることが可能です。</p>
+                        <p>この画面がSpotwriteメニューの「組織図一覧」になります。</p>
+                    </div>
+                    <div class="photo"><img src="assets/image/common/com_box_photo.png" alt="組織登録の説明" width="140"></div>
+                </div>
+                <div class="mainBox">
+                    <div class="comRightBox">
+                        <div class="comInner">
+                            <p class="comNum josefin">01</p>
+                            <p><strong>組織の属性は５種類あります</strong></p>
+                            <p>組織ごとに設定できる属性によって組織が色分けされています。経営陣BOXは会社ごとにデフォルトで作成されますが、削除可能です。<br>
+                                「その他」BOXは内定者や社員の家族、社外の関係深い人など、社員以外のグループとして作成できます。</p>
+                            <div class="detailsLink"><a data-fancybox data-src="#pop01" href="javascript:void(0);"><span class="subSpan">属性を詳しく見る</span></a></div>
+                        </div>
+                        <div class="comInner">
+                            <p class="comNum josefin">02</p>
+                            <p><strong>会社BOXを作成できます</strong></p>
+                            <p>会社の名前や公開状態を設定できます。<br>
+                                設定アイコンからは詳細情報を入れられます。<br>
+                                名前の下の矢印をクリックで会社ごと畳めます<br>
+                                「子BOXを表に出す」を選択すると、隠れている子BOXが表示されます。</p>
+                            <div class="detailsLink"><a href="companybox-registration.html">会社BOXを登録する</a></div>
+                        </div>
+                        <div class="comInner">
+                            <p class="comNum josefin">03</p>
+                            <p><strong>組織BOXを作成できます</strong></p>
+                            <p>会社と同様に組織の情報を設定できます。<br>
+                                作成した組織には、さらにその下に子BOXを紐づけることが来出ます。</p>
+                            <div class="detailsLink"><a href="organizationbox-registration.html">組織BOXを登録する</a></div>
+                        </div>
+                        <div class="featuresBox">
+                            <h3><img src="assets/image/common/features_img.png" alt="関連機能" width="28">関連機能</h3>
+                            <ul class="linkUl">
+                                <li><a href="company-detail.html">会社詳細</a></li>
+                                <li><a href="organization-detail.html">組織詳細</a></li>
+                                <li><a href="member-registration-required.html">メンバー登録</a></li>
+                                <li><a href="organization-list.html">組織一覧</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="comLeftBox">
+                        <div class="viewLink mtViewLink"><a href="#">サンプルを見る</a></div>
+                        <div class="comTextImg"><img src="assets/image/organization-registration/photo.png" alt="組織登録の説明">
+                            <p class="text text01">会社名で絞り込んで、該当の会社だけを表示できます。</p>
+                            <p class="text text02">「子BOXを表示する」ボタンを押すと、普段は畳まれている子BOXを表示できます</p>
+                            <p class="text text03">新しい組織BOXを追加することができます。</p>
+                            <p class="text text04">新しい会社BOXを追加することができます。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popBox" id="pop01">
+        <div class="popInner">
+            <div class="popClose"><a href="javascript:void(0);" data-fancybox-close=""><img src="assets/image/common/button_close.png" alt="close" width="28"></a></div>
+            <h2 class="popTtl">属性について</h2>
+            <div class="popScroll scroll-pane">
+                <div class="subScroll"><div class="comBox">
+                    <p><strong>組織BOXには、5つの属性があります。<br>
+                        部署・店舗・支店・その他・経営陣の中から作りたいBOXの属性を選びましょう。<br>
+                        属性を選ぶとBOXの色が属性によって異なるので区別がつきやすくなります。また、属性によって詳細の内容が少し異なります。</strong></p>
+                    <div class="featuresBox features_through">
+                        <h3><img src="assets/image/common/features_img.png" alt="関連機能" width="28">関連機能</h3>
+                        <ul class="linkUl">
+                            <li><a href="company-detail.html">会社詳細</a></li>
+                            <li><a href="organization-detail.html">組織詳細</a></li>
+                            <li><a href="organization-list.html">組織一覧</a></li>
+                            <li><a href="organization-registration.html">組織（BOX）登録</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mainBox">
+                    <div class="lBox"><img src="assets/image/organization-registration/pop_img01.png" width="343" alt="属性について"></div>
+                    <div class="rBox">
+                        <div class="img"><img src="assets/image/organization-registration/pop_img02.png" width="581" alt="属性について"></div>
+                        <div class="popColTxt">
+                            <div class="comInner">
+                                <p class="ttl"><strong>経営陣</strong></p>
+                                <p class="txt">経営陣BOXは、役員用のBOXです。<br>
+                                    会社BOXを作った時に自動で作られます。<br>
+                                    会社の代表や役員陣はここへ登録することをおすすめします。</p>
+                            </div>
+                            <div class="comInner">
+                                <p class="ttl"><strong>部署</strong></p>
+                                <p class="txt">部署BOXは、通常の会社の部署に利用する属性です。<br>
+                                    最も一般的なBOXです。</p>
+                            </div>
+                            <div class="comInner">
+                                <p class="ttl"><strong>店舗</strong></p>
+                                <p class="txt">会社の店舗に使う属性です。<br>
+                                    部署BOXとは違い、代表者は「店長」となり、追加で所在地やホームページも登録できます。</p>
+                            </div>
+                            <div class="comInner">
+                                <p class="ttl"><strong>支店</strong></p>
+                                <p class="txt">会社の支店に使うBOXです。<br>
+                                    詳細の項目は店舗と同一になります。</p>
+                            </div>
+                            <div class="comInner">
+                                <p class="ttl"><strong>その他</strong></p>
+                                <p class="txt">上記のどの属性にも当てはまらないBOXに利用できます。<br>
+                                    例えば、部署が未定の内定者やOB、社員の家族などをSpotwriteに招待したい時に「内定者チーム」「OBチーム」「社員親族」など自由に登録ができます。</p>
+                            </div>
+                            <div class="comInner">
+                                <p class="ttl"><strong>未属性</strong></p>
+                                <p class="txt">属性がまだ決まっていないBOXは未属性としてこの色になります。<br>
+                                    属性を選ぶことで初めてBOXを公開状態にできるため、この状態ではまだ公開ができません。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="popLine">
+                <div class="comInner">
+                    <p class="comNum pink josefin">02</p>
+                    <p>組織BOX詳細の属性ごとの違いは、部署BOX情報に所在地とホームページを加え、代表者が「店長」になったものが店舗・支店です。<br>
+                        経営陣とその他は、部署BOX情報の内容は変わらず、項目名だけ変わります。</p>
+                </div>
+                <ul class="imgList">
+                    <li><img src="assets/image/organization-registration/pop_img03.png" alt="部署BOX詳細"><span class="posTxt01">部署BOX詳細</span></li>
+                    <li><img src="assets/image/organization-registration/pop_img04.png" alt="支店・店舗BOX詳細"><span class="posTxt01">支店・店舗BOX詳細</span><span class="posTxt02 txt01">代表者は「店長」になります</span><span class="posTxt02 txt02">所在地やHPを登録できます</span></li>
+                </ul></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="assets/js/jquery-1.12.4.min.js"></script> 
+<script src="assets/js/jquery.matchHeight.js"></script> 
+<script src="assets/js/jquery.fancybox.js"></script> 
+<script src="assets/js/jquery.mousewheel.js"></script> 
+<script src="assets/js/jquery.jscrollpane.js"></script> 
+<script src="assets/js/common.js"></script>
+</body>
+</html>

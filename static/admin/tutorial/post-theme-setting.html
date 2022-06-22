@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<title>テーマを設定する</title>
+<link rel="stylesheet" type="text/css" href="assets/js/jquery.fancybox.css">
+<link rel="stylesheet" type="text/css" href="assets/js/jquery.jscrollpane.css">
+<link rel="stylesheet" type="text/css" href="assets/css/common/layout.css">
+<link rel="stylesheet" type="text/css" href="assets/css/common/general.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<script src="assets/js/head.js"></script>
+</head>
+<body>
+<div id="container">
+    <header id="gHeader">
+        <div class="hInner">
+            <h1><a href="./"><img src="assets/image/common/logo.png" alt="Spotwrite" width="112"></a></h1>
+        </div>
+    </header>
+    <div id="main">
+        <div class="post-theme-setting">
+            <div class="prevLink"><a href="#">戻る</a></div>
+            <section class="topTtlBox">
+                <h2><span class="txtSpan">記事テーマ設定の説明</span>テーマを設定する</h2>
+            </section>
+            <div class="content">
+                <div class="comBox">
+                    <div class="subBox">
+                        <p><strong>自社難易度に合ったテーマを設定しましょう。<br>
+                            設定したテーマを全社に適用することもできます。</strong></p>
+                    </div>
+                    <div class="photo"><img src="assets/image/common/com_box_photo.png" alt="記事テーマ設定の説明 テーマを設定する" width="105"></div>
+                </div>
+                <div class="mainBox">
+                    <div class="comRightBox">
+                        <div class="comInner">
+                            <p class="comNum purple josefin">01</p>
+                            <p><strong>テーマを選びます</strong></p>
+                            <p>このボタンを押してテーマを変更できます。<br>
+                                前ページの[02]にあるテーマ一覧から、現在の会社に合った難易度のテーマをチョイスしてみましょう。</p>
+                        </div>
+                        <div class="comInner">
+                            <p class="comNum purple josefin">02</p>
+                            <p><strong>テーマの説明文を編集します</strong></p>
+                            <p>テーマの説明文は、もとから設定されているものから変更することもできます。<br>
+                                自社に合った文章に変更したい場合や、オリジナルのテーマにカスタマイズしたい場合はここを編集することで、ユーザー画面に表示されるテーマ説明に反映できます。</p>
+                        </div>
+                        <div class="comInner">
+                            <p class="comNum purple josefin">03</p>
+                            <p><strong>テーマの期間が表示されます</strong></p>
+                            <p>テーマの期間には投稿ルールでマイエピソードの頻度に設定した期間が自動的に反映されます。<br>
+                                何も設定していない場合は、デフォルトの頻度である1か月が適用されています。<br>
+                                期間の始点と終点は自由に変更できるので、休日をまたぐ場合などは調整して利用しましょう。</p>
+                            <div class="detailsLink"><a data-fancybox data-src="#pop01" href="javascript:void(0);"><span class="subSpan">投稿ルールを詳しく見る</span></a></div>
+                        </div>
+                        <div class="comInner">
+                            <p class="comNum purple josefin">04</p>
+                            <p><strong>記事サンプルが確認できます</strong></p>
+                            <p>選んだテーマの記事サンプルが確認できます。<br>
+                                記事サンプルはユーザーの投稿画面で参考として表示されます。<br>
+                                説明文は[02]の通り編集できますが、このサンプル文章を変更することはできません。</p>
+                        </div>
+                        <div class="comInner">
+                            <p class="comNum purple josefin">05</p>
+                            <p><strong>選んだテーマを全社に適用できます</strong></p>
+                            <p>ここにチェックを入れると、選んだテーマをほかの会社にも一括で適用することができます。<br>
+                                ほかの会社ですでに選んでいるテーマがある場合は上書きされてしまうため、チェックは慎重に行うようにしましょう。</p>
+                        </div>
+                        <div class="featuresBox">
+                            <h3><img src="assets/image/common/features_img.png" alt="関連機能" width="28">関連機能</h3>
+                            <ul class="linkUl">
+                                <li><a href="postingrules-list-organization.html">投稿ルール一覧</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="comLeftBox">
+                        <div class="comTextImg"><img src="assets/image/post-theme-setting/photo.png" alt="記事テーマ設定の説明 テーマを設定する"> 
+                        <p class="text text01">ボタンを押すと「テーマ選択モード」になる。</p>
+                        <p class="text text03">テーマ選択モードになると各テーマに「選択」ボタンが表示される。</p>
+                        <p class="text settingTxt">テーマ選択モード</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popBox popBox07" id="pop01">
+		<div class="popInner">
+			<div class="popClose"><a href="javascript:void(0);" data-fancybox-close=""><img src="assets/image/common/button_close.png" alt="close" width="28"></a></div>
+			<h2 class="popTtl">投稿ルールを設定する</h2>
+			<div class="popScroll scroll-pane">
+				<div class="subScroll"><div class="comBox">
+					<p>投稿ルールは、各記事をどの頻度で投稿するかをメンバーに義務付けることができる機能です。<br>
+					設定された頻度でメンバーにはシステムから通知が届き、投稿が催促されます。<br>
+					運営担当者の手間を肩代わりし、投稿への心理的ハードルも下げられるので是非活用してください！</p>
+					<div class="featuresBox features_through">
+						<h3><img src="assets/image/common/features_img.png" alt="関連機能" width="28">関連機能</h3>
+						<ul class="linkUl">
+							<li><a href="organization-registration.html">組織（BOX）登録</a></li>
+							<li><a href="member-list.html">メンバー一覧</a></li>
+							<li><a href="master-setting.html">マスタ設定</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="mainBox mainBox01">
+					<div class="comInner">
+						<p class="comNum pink josefin">01</p>
+						<p>投稿ルールは、メニューの<a href="postingrules-list-organization.html" class="pinkLink">投稿ルール一覧</a>の他に、<a href="organization-list.html" class="pinkLink">組織一覧・編集</a>や<a href="member-list.html" class="pinkLink">メンバー一覧・編集</a>からも設定ができます。<br>会社ごと、組織ごと、個人ごとに設定の頻度やアラートの有無まで自由にカスタマイズができます。</p>
+					</div>
+					<div class="img"><img src="assets/image/postingrules-list-organization/pop_img01.png" width="709" alt="投稿ルールを設定する"><span class="posTxt01 txt01">投稿ルール一覧</span><span class="posTxt01 txt02">メンバー一覧・編集</span><span class="posTxt01 txt03">組織一覧・編集</span></div>
+				</div>
+				<hr class="popLine">
+				<div class="mainBox mainBox02">
+					<div class="comInner">
+						<p class="comNum pink josefin">02</p>
+						<p><strong>設定した頻度をもとにアラートが届きます</strong></p>
+						<p>投稿ルールで設定した頻度によって、ユーザーにアラートが届きます。期日前に自動的に通知を出すことで、記事投稿を催促できます。</p>
+					</div>
+					<div class="comInner">
+						<p class="comNum pink josefin">03</p>
+						<p><strong>マイエピソードは記事テーマと一緒に通知がきます</strong></p>
+						<p>マイエピソードの頻度設定をすると、記事テーマ画面に反映されます。テーマの変更と同時に通知を出すことができます。</p>
+					</div>
+					<div class="img"><img src="assets/image/postingrules-list-organization/pop_img02.png" width="258" alt="投稿ルールを設定する"></div>
+					<div class="img"><img src="assets/image/postingrules-list-organization/pop_img03.png" width="469" alt="投稿ルールを設定する"></div>
+				</div></div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="assets/js/jquery-1.12.4.min.js"></script> 
+<script src="assets/js/jquery.matchHeight.js"></script> 
+<script src="assets/js/jquery.fancybox.js"></script> 
+<script src="assets/js/jquery.mousewheel.js"></script> 
+<script src="assets/js/jquery.jscrollpane.js"></script> 
+<script src="assets/js/common.js"></script>
+</body>
+</html>

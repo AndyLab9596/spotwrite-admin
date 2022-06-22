@@ -1,0 +1,481 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	index
+------------------------------------------------------------*/
+#main {
+	margin-bottom: 0 !important;
+}
+#main .mainVisual {
+	position: relative;
+	background: url("../image/introduction/bg01.png") no-repeat top center / 100% auto;
+}
+#main .mainVisual .img01 {
+	width: 384px;
+	position: absolute;
+	left: -31px;
+	top: 137px;
+}
+#main .mainVisual .img02 {
+	width: 295px;
+	position: absolute;
+	right: 5.55%;
+	top: 65px;
+}
+#main .mainVisual .content {
+	padding: 101px 0 64px;
+	width: 528px;
+	text-align: center;
+}
+#main .mainVisual h2 {
+	margin-bottom: 49px;
+	color: #fff;
+	font-size: 3.2rem;
+	line-height: 1.416;
+	font-family: ryo-gothic-plusn,sans-serif;
+}
+#main .mainVisual h2 span {
+	display: block;
+	font-size: 2.4rem;
+}
+#main .mainVisual h2 small {
+	font-size: 2rem;
+}
+#main .mainVisual h2 .txt {
+	margin-top: 3px;
+}
+#main .mainVisual p {
+	margin-bottom: 32px;
+	color: #fff;
+	line-height: 2;
+}
+#main .mainVisual p span {
+	margin: -2px 0 2px;
+	display: block;
+	font-size: 2rem;
+	font-weight: bold;
+	line-height: 1.6;
+}
+#main .mainVisual .img03 {
+	width: 340px;
+	position: absolute;
+	right: -28px;
+	bottom: 81px;
+}
+#main .bg {
+	position: relative;
+	background: #5A9FBC;
+	background: -webkit-linear-gradient(-90deg, #39A0AF, #3C81AF);
+	background: -moz-linear-gradient(-90deg, #39A0AF, #3C81AF);
+	background: -ms-linear-gradient(-90deg, #39A0AF, #3C81AF);
+	background: -o-linear-gradient(-90deg, #39A0AF, #3C81AF);
+	background: linear-gradient(180deg, #39A0AF, #3C81AF);
+}
+#main .effects {
+	padding-bottom: 103px;
+	position: relative;
+}
+#main .effects::before {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	opacity: 0.16;
+	content: '';
+}
+#main .effects .content {
+	position: relative;
+}
+#main .effects .imgTxt {
+	width: 268px;
+}
+#main .effects .imgTxt img {
+	margin: -50px 0 0 -30px;
+}
+#main .effects .text {
+	text-align: center;
+	font-size: 2.4rem;
+font-weight: bold;
+	color: #fff;
+}
+#main .effects .text span {
+	display: inline-block;
+	border-bottom: 2px solid #fff;
+	
+}
+.comGreet {
+	margin-bottom: 82px;
+	padding-top: 16px;
+}
+#main .max {
+	padding: 102px 0 41px;
+	background: #EEF3F6;
+}
+#main .headLine01 {
+	margin-bottom: 62px;
+	font-size: 4rem;
+	line-height: 1.25;
+}
+#main .headLine01 span {
+	margin: 13px 0 0;
+	font-size: 2rem;
+}
+#main .max .imgBox {
+	margin-bottom: 63px;
+	position: relative;
+	z-index: 1;
+}
+#main .max .imgBox .photo {
+	width: 316px;
+}
+#main .max .imgBox .textBox {
+	padding: 114px 80px 0 103px;
+	flex: 1;
+	position: relative;
+}
+#main .max .imgBox .textBox .en {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 7.2rem;
+	font-weight: 600;
+	line-height: 1;
+	letter-spacing: 0.05em;
+	color: #48BEC9;
+	opacity: 0.4;
+	text-transform: uppercase;
+}
+#main .max .imgBox .textBox h3 {
+	margin-bottom: 28px;
+	font-size: 3.2rem;
+	font-family: ryo-gothic-plusn,sans-serif;
+	line-height: 1.3125;
+	color: #2C7189;
+	position: relative;
+}
+#main .max .imgBoxL {
+	flex-direction: row-reverse;
+}
+#main .max .imgBoxL .textBox {
+	padding: 114px 94px 0 80px;
+}
+#main .max .imgBoxL .textBox .en {
+	text-align: right;
+}
+#main .point {
+	padding: 102px 0 80px;
+}
+#main .point .pointBox  {
+	margin: 0 -142px 24px 0;
+	background-color: #fff;
+	
+	position: relative;
+	border-radius: 8px 0 0 8px;
+}
+#main .point .headLine01 {
+	margin-bottom: 56px;
+	color: #fff;
+}
+#main .point .pointBox .photo {
+	width: 458px;
+}
+#main .point .pointBox .photo img {
+	width: 100%;
+}
+#main .point .pointBox .textBox {
+	padding: 10px 41px 13px 170px;
+	flex: 1;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+#main .point .pointBox .textBox h3 {
+	margin-bottom: 13px;
+	color: #2C7189;
+	font-size: 2.4rem;
+	font-weight: bold;
+}
+#main .point .pointBox .textBox .ttl {
+	font-size: 2.2rem;
+	font-weight: 600;
+	position: absolute;
+	left: 40px;
+	top: 33px;
+	color: #E58C33;
+	letter-spacing: 0.05em;
+}
+#main .point .pointBox .textBox .ttl span {
+	margin-top: -6px;
+	font-size: 6.4rem;
+	display: block;
+	line-height: 1;
+	letter-spacing: 0;
+}
+#main .point .pointBoxL {
+	margin-right: 0;
+	margin-left: -142px;
+	flex-direction: row-reverse;
+	border-radius:  0 8px 8px 0;
+}
+#main .product {
+	padding: 91px 0 104px;
+	position: relative;
+	background: url("../image/introduction/bg02.png") no-repeat center center / cover;
+}
+#main .product h2 {
+	margin-bottom: 52px;
+	color: #fff;
+	text-align: center;
+	font-size: 4rem;
+}
+#main .product::before {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	opacity: 0.16;
+	content: '';
+}
+#main .product .content {
+	position: relative;
+}
+#main .product .photo {
+	margin-bottom: 64px;
+}
+#main .product .comBtn a {
+	padding: 16px 10px 18px;
+	font-weight: 600;
+}
+#main .product .listUl {
+	margin: 0 -21px 64px;
+}
+#main .product .listUl > li {
+	margin: 0 19px -135px;
+	width: 307px;
+	position: relative;
+}
+#main .product .listUl li ul {
+	padding: 0 17%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 175px;
+	text-align: center;
+	box-sizing: border-box;
+	z-index: 10;
+}
+#main .product .listUl li ul li {
+	margin: 0 1px 3px;
+	display: inline-block;
+}
+#main .product .listUl li ul li a {
+	padding: 3px 8px;
+	display: block;
+	font-size: 1rem;
+	line-height: 1.2;
+	font-weight: bold;
+	border: 1px solid #fff;
+	border-radius: 30px;
+	color: #fff;
+}
+#main .product .listUl li ul li a:hover {
+	opacity: 0.9;
+}
+#main .product .listUl li ul li a:focus {
+	opacity: 0.8;
+}
+#main .product .listUl > li:nth-child(4),
+#main .product .listUl > li:nth-child(5) {
+	margin-bottom: 0;
+}
+@media all and (max-width: 896px) {
+	#main .mainVisual .content {
+		width: auto;
+		padding: 0;
+	}
+	#main .mainVisual .img01 {
+		margin-bottom: -38px;
+		width: 100%;
+		position: static;
+	}
+	#main .mainVisual .img02 {
+		padding-left: 6px;
+		position: static;
+		margin: 0 auto 33px;
+		width: 69.8%;
+		text-align: center;
+	}
+	#main .mainVisual h2 {
+		margin-bottom: -20px;
+	}
+	#main .mainVisual p {
+		margin: 0 15px 32px;
+		text-align: left;
+	}
+	#main .mainVisual .img03 {
+		margin: -18px 0 0;
+		position: static;
+		width: auto;
+		text-align: right;
+	}
+	#main .mainVisual .img03 img {
+		margin-right: -11%;
+		width: 74.5%;
+	}
+	#main .mainVisual {
+		padding-bottom: 45px;
+	}
+	#main .effects .imgTxt {
+		margin-bottom: -19px;
+		width: 185px;
+	}
+	#main .effects .imgTxt img {
+		margin: 33px 0 0 -37px;
+	}
+	.comGreet {
+		margin-bottom: 28px;
+		padding-top: 0;
+	}
+	#main .effects .text{
+		line-height: 1.58;
+	}
+	#main .effects .text span {
+		display: inline;
+	}
+	#main .effects {
+		padding-bottom: 38px;
+	}
+	#main .headLine01 {
+		margin: 0 -10px 21px;
+		font-size: 3.2rem;
+		line-height: 1.3125;
+	}
+	#main .max {
+		padding: 38px 0 17px;
+	}
+	#main .max .imgBox {
+		margin-bottom: 23px;
+		display: block;
+	}
+	#main .max .imgBox .textBox {
+		padding: 0 0 11px;
+	}
+	#main .max .imgBox .photo {
+		width: 240px;
+		margin: 0 auto;
+	}
+	#main .max .imgBox .photo img {
+		width: 100%;
+	}
+	#main .max .imgBox .textBox h3 {
+		margin-bottom: 5px;
+		font-size: 2.4rem;
+	}
+	#main .max .imgBox .textBox .en {
+		margin: 0 -5px -21px;
+		position: static;
+		font-size: 4.2rem;
+		line-height: 1.05;
+	}
+	#main .max .imgBoxL .textBox .en {
+		margin: 0 0 -18px;
+		text-align: left;
+	}
+	#main .point {
+		padding: 37px 0 16px;
+	}
+	#main .point .headLine01 {
+		margin-bottom: 17px;
+	}
+	#main .point .pointBox {
+		margin: 0 0 24px;
+		display: block;
+		border-radius: 8px;
+		overflow: hidden;
+	}
+	#main .point .pointBox .textBox {
+		padding: 20px 24px 19px;
+		width: auto;
+		display: block;
+	}
+	#main .point .pointBox .photo {
+		width: auto;
+	}
+	#main .point .pointBox .photo img {
+		width: 100%;
+	}
+	#main .point .pointBox .textBox .ttl {
+		margin-bottom: 1px;
+		position: static;
+		font-size: 1.2rem;
+	}
+	#main .point .pointBox .textBox .ttl span {
+		margin-top: -4px;
+		font-size: 4rem;
+	}
+	#main .point .pointBox .textBox h3 {
+		margin-bottom: 3px;
+	}
+	#main .product h2 {
+		margin: 0 -10px 20px;
+		font-size: 3.2rem;
+		line-height: 1.3125;
+	}
+	#main .product {
+		padding: 34px 0 40px;
+		background: url("../image/introduction/sp_bg02.png") no-repeat center bottom 75px / 100% auto;
+	}
+	#main .product .comBtn a {
+		max-width: 316px;
+	}
+	#main .product .photo {
+		margin-bottom: 24px;
+		text-align: center;
+	}
+	#main .product .listUl {
+		margin: 0 auto 23px;
+		max-width: 345px;
+		position: relative;
+		justify-content: space-between;
+	}
+	#main .product .listUl > li {
+		width: 47%;
+		margin: 0 0 19px;
+		z-index: 4;
+	}
+	#main .product .listUl > li:nth-child(2) {
+		margin: 0;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%);
+		z-index: 3;
+	}
+	#main .product .listUl > li:nth-child(3) {
+		z-index: 5;
+	}
+	#main .product .listUl > li:nth-child(4) {
+		z-index: 1;
+	}
+	#main .product .listUl > li:nth-child(5) {
+		z-index: 2;
+	}
+	#main .product .listUl li ul {
+		padding: 0 13px;
+		top: 94px;
+		line-height: 1;
+	}
+	#main .product .listUl li ul li {
+		margin: 0;
+		vertical-align: top;
+	}
+	#main .product .listUl li ul li a {
+		padding: 2px 5px;
+		font-size: 0.5rem;
+		line-height: 1;
+	}
+}

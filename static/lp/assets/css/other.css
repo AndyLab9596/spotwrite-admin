@@ -1,0 +1,45 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	index
+------------------------------------------------------------*/
+#main .other {
+	margin-bottom: 40px;
+	padding-top: 30px;
+	
+}
+#main .other .intro {
+	margin-bottom: 40px;
+}
+#main .other h3,
+#main .other dt {
+	font-weight: bold;
+	margin-bottom: 14px;
+	font-size: 2.4rem;
+	line-height: 1.416;
+}
+
+#main .other dl.law dt {
+	font-size: 2.0rem;
+}
+
+#main .other p,
+#main .other dd {
+	margin-bottom: 30px;
+}
+
+#main .other p.last,
+#main .other dd.last {
+	text-align: right;
+	margin-bottom: 5px;
+}
+
+#main .other ul {
+}
+
+#main .other ul li {
+	margin-bottom: 10px;
+}
+
+#main .other ul li p {
+	margin: 10px 0 0 40px;
+}

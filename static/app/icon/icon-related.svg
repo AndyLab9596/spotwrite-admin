@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.865" x2="0.142" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f09c9c"/>
+      <stop offset="1" stop-color="#7e8195"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_5529" data-name="Group 5529" transform="translate(-32 -780)">
+    <rect id="Rectangle_4115" data-name="Rectangle 4115" width="28" height="28" rx="11" transform="translate(32 780)" opacity="0.15" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_3994" data-name="Rectangle 3994" width="28" height="28" transform="translate(32 780)" fill="red" opacity="0"/>
+    <g id="Group_1895" data-name="Group 1895" transform="translate(-399.312 491.029)">
+      <path id="Path_1032" data-name="Path 1032" d="M451.735,299.716h0a1.619,1.619,0,0,1,1.577,1.658V308.2a2.7,2.7,0,0,1-2.629,2.766H439.057a1.792,1.792,0,0,1-1.745-1.836V296.054a1.056,1.056,0,0,1,1.028-1.083h12.367a1.056,1.056,0,0,1,1.028,1.083v11.87" fill="none" stroke="#90747f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <rect id="Rectangle_1367" data-name="Rectangle 1367" width="10.446" height="5.535" rx="1.055" transform="translate(439.168 296.73)" fill="#90747f"/>
+      <line id="Line_649" data-name="Line 649" x2="9.536" transform="translate(439.673 304.263)" fill="#898c9e" stroke="#90747f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_650" data-name="Line 650" x2="9.536" transform="translate(439.673 306.445)" fill="#898c9e" stroke="#90747f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_651" data-name="Line 651" x2="9.536" transform="translate(439.673 308.627)" fill="#898c9e" stroke="#90747f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

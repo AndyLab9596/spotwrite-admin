@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.001" height="34.496" viewBox="0 0 21.001 34.496">
+  <g id="Icon_people_l" data-name="Icon/people_l" transform="translate(0.5 0.5)">
+    <ellipse id="楕円形_2094" data-name="楕円形 2094" cx="6.411" cy="6.755" rx="6.411" ry="6.755" transform="translate(3.589)" fill="none" stroke="#676c81" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.001"/>
+    <path id="パス_1621" data-name="パス 1621" d="M289.459,525.612v-3.8a10.132,10.132,0,0,0-10-10.258h0a10.132,10.132,0,0,0-10,10.258v3.8" transform="translate(-269.459 -493)" fill="none" stroke="#676c81" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="パス_1622" data-name="パス 1622" d="M281.369,525.94,279.426,527l-1.87-1.056.864-10.321h2.088Z" transform="translate(-269.459 -493)" fill="#676c81"/>
+    <g id="グループ_3719" data-name="グループ 3719" transform="translate(-269.459 -493)">
+      <path id="パス_1623" data-name="パス 1623" d="M278.41,513.621v1.2h2.1V513.6a7.747,7.747,0,0,0-.936-.108A7.544,7.544,0,0,0,278.41,513.621Z" fill="#676c81"/>
+    </g>
+    <g id="グループ_3720" data-name="グループ 3720" transform="translate(-269.459 -493)">
+      <line id="線_1038" data-name="線 1038" x1="0.604" y2="12.309" transform="translate(284.747 513.479)" fill="none" stroke="#676c81" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.971"/>
+      <line id="線_1039" data-name="線 1039" x2="0.604" y2="12.309" transform="translate(273.566 513.479)" fill="none" stroke="#676c81" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.971"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="159.795" height="36.265" viewBox="0 0 159.795 36.265">
+  <g id="ribon_thankyou" transform="translate(0.442 0.265)">
+    <g id="Group_6608" data-name="Group 6608">
+      <g id="Group_6607" data-name="Group 6607">
+        <g id="Group_6602" data-name="Group 6602">
+          <path id="Path_3845" data-name="Path 3845" d="M2292.768,1503.045h-30.916l8.462,15.565-8.462,14.094h15.837" transform="translate(-2261.852 -1503.045)" fill="#89d3ca"/>
+          <path id="Path_3846" data-name="Path 3846" d="M2292.768,1503.045h-30.916l8.462,15.565-8.462,14.094h16.683" transform="translate(-2261.852 -1503.045)" fill="none" stroke="#998863" stroke-miterlimit="10" stroke-width="0.5"/>
+        </g>
+        <g id="Group_6603" data-name="Group 6603" transform="translate(127.996)">
+          <path id="Path_3847" data-name="Path 3847" d="M2334,1503.045h30.916l-8.462,15.565,8.462,14.094h-15.837" transform="translate(-2333.996 -1503.045)" fill="#89d3ca"/>
+          <path id="Path_3848" data-name="Path 3848" d="M2334,1503.045h30.916l-8.462,15.566,8.462,14.094H2348.23" transform="translate(-2333.996 -1503.045)" fill="none" stroke="#998863" stroke-miterlimit="10" stroke-width="0.5"/>
+        </g>
+        <g id="Group_6604" data-name="Group 6604" transform="translate(16.891)">
+          <path id="Path_3849" data-name="Path 3849" d="M2271.372,1508.659l14.025-5.614.03,5.614" transform="translate(-2271.372 -1503.045)" fill="#af977d"/>
+          <path id="Path_3850" data-name="Path 3850" d="M2271.372,1508.659l14.025-5.614.03,5.614" transform="translate(-2271.372 -1503.045)" fill="none" stroke="#998863" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.53"/>
+        </g>
+        <g id="Group_6605" data-name="Group 6605" transform="translate(127.996)">
+          <path id="Path_3851" data-name="Path 3851" d="M2348.145,1508.557,2334,1503.045l.035,5.754" transform="translate(-2333.996 -1503.045)" fill="#af977d"/>
+          <path id="Path_3852" data-name="Path 3852" d="M2348.145,1508.557,2334,1503.045l.035,5.754" transform="translate(-2333.996 -1503.045)" fill="none" stroke="#998863" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.53"/>
+        </g>
+        <g id="Group_6606" data-name="Group 6606" transform="translate(15.982 5.715)">
+          <rect id="Rectangle_5059" data-name="Rectangle 5059" width="126.215" height="30.007" transform="translate(0 0.278)" fill="#89d3ca"/>
+          <rect id="Rectangle_5060" data-name="Rectangle 5060" width="126.215" height="30.007" transform="translate(0.385 0)" fill="none" stroke="#998863" stroke-miterlimit="10" stroke-width="0.5"/>
+        </g>
+      </g>
+    </g>
+    <text id="INTERVIEW" transform="translate(41.456 25)" fill="#fff" font-size="12" font-family="Lato-Heavy, Lato" font-weight="800" letter-spacing="0.1em"><tspan x="0" y="0">INTERVIEW</tspan></text>
+  </g>
+</svg>

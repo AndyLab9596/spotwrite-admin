@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15.185" height="17" viewBox="0 0 15.185 17">
+  <g id="icon_document" transform="translate(0.5 0.5)">
+    <path id="Path_6164" data-name="Path 6164" d="M384.175,285.03v9.61a1.421,1.421,0,0,0,1.419,1.422h11.347a1.421,1.421,0,0,0,1.419-1.422V281.484a1.421,1.421,0,0,0-1.419-1.422H389.13Z" transform="translate(-384.175 -280.062)" fill="none" stroke="#7e8195" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Path_6165" data-name="Path 6165" d="M384.175,285.03h3.713a1.244,1.244,0,0,0,1.242-1.245v-3.723" transform="translate(-384.175 -280.062)" fill="none" stroke="#7e8195" stroke-miterlimit="10" stroke-width="1"/>
+    <g id="Group_8125" data-name="Group 8125" transform="translate(-384.175 -280.062)">
+      <line id="Line_1818" data-name="Line 1818" x2="5.689" transform="translate(388.423 287.484)" fill="none" stroke="#7e8195" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_1819" data-name="Line 1819" x2="3.603" transform="translate(388.423 289.973)" fill="none" stroke="#7e8195" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_1820" data-name="Line 1820" x2="5.689" transform="translate(388.423 292.462)" fill="none" stroke="#7e8195" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

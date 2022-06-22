@@ -1,0 +1,20 @@
+<svg id="button_check_on_b" xmlns="http://www.w3.org/2000/svg" width="150" height="26" viewBox="0 0 150 26">
+	<g id="button_bl">
+		<g id="Rectangle_1991" data-name="Rectangle 1991" fill="#fce9e9" stroke="#e4e5ed" stroke-width="1">
+			<rect width="150" height="26" rx="4" stroke="none"/>
+			<rect x="0.5" y="0.5" width="149" height="25" rx="3.5" fill="none"/>
+		</g>
+		<text id="子BOXを表示中" transform="translate(28 18)" fill="#6a6d83" font-size="13" font-family="YuGothicUI-Regular, Yu Gothic UI" font-weight="bold"><tspan x="0" y="0">子</tspan><tspan y="0" font-family="SegoeUI, Segoe UI">BOX</tspan><tspan y="0">を表示中</tspan></text>
+	</g>
+	<g id="Icon_check_pink" data-name="Icon/check_pink" transform="translate(7 5)">
+		<path id="Path_481" data-name="Path 481" d="M106.006,301.622" transform="translate(-102.538 -293.668)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+		<g id="Group_1434" data-name="Group 1434" transform="translate(-102.554 -293.668)">
+			<circle id="Ellipse_229" data-name="Ellipse 229" cx="8" cy="8" r="8" transform="translate(102.554 293.668)" fill="#f09c9c"/>
+			<path id="Path_788" data-name="Path 788" d="M114.042,299.305l-4.726,4.726-2.4-2.4" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+		</g>
+	</g>
+	<g id="余白確認" transform="translate(-324 -11)">
+		<rect id="Rectangle_5116" data-name="Rectangle 5116" width="7" height="25" transform="translate(360 11)" fill="#f3c5c5" opacity="0"/>
+		<rect id="Rectangle_5117" data-name="Rectangle 5117" width="14" height="25" transform="translate(460 11)" fill="#f3c5c5" opacity="0"/>
+	</g>
+</svg>

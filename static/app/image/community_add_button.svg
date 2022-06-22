@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="36" viewBox="0 0 150 36">
+  <g id="コミュニティ作成ボタン" transform="translate(-549 -114.206)">
+    <g id="Button_L" transform="translate(549 114.206)">
+      <rect id="長方形_535" data-name="長方形 535" width="150" height="36" rx="4" fill="#e4e5ed"/>
+      <text id="コミュニティ登録" transform="translate(8 10)" fill="#6a6d83" font-size="11" font-family="HiraKakuPro-W6, Hiragino Kaku Gothic Pro"><tspan x="11" y="10">コミュニティ登録</tspan></text>
+    </g>
+    <g id="Icon_plus_white" data-name="Icon/plus_white" transform="translate(670.5 124.059)">
+      <circle id="楕円形_216" data-name="楕円形 216" cx="8" cy="8" r="8" fill="#f09c9c"/>
+      <g id="グループ_1350" data-name="グループ 1350" transform="translate(5 5)">
+        <line id="線_373" data-name="線 373" y2="6" transform="translate(3)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+        <line id="線_374" data-name="線 374" x2="6" transform="translate(0 3)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

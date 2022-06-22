@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
+  <g id="Icon_write" data-name="Icon/write" transform="translate(0.5 0.5)">
+    <g id="グループ_1032" data-name="グループ 1032" transform="translate(6.103)">
+      <path id="パス_532" data-name="パス 532" d="M250.55,157.563l-.325,1.642a.547.547,0,0,0,.65.642l1.636-.345a.529.529,0,0,0,.123-.031l-2.051-2.051A.541.541,0,0,0,250.55,157.563Z" transform="translate(-250.214 -150)" fill="#7e8195"/>
+      <path id="パス_533" data-name="パス 533" d="M250.922,156.984l2.15,2.15,5.344-5.305-2.15-2.15Z" transform="translate(-250.214 -150)" fill="#7e8195"/>
+      <path id="パス_534" data-name="パス 534" d="M259.949,151.53l-1.381-1.371a.547.547,0,0,0-.771,0l-1.143,1.134,2.151,2.15,1.144-1.136A.547.547,0,0,0,259.949,151.53Z" transform="translate(-250.214 -150)" fill="#7e8195"/>
+    </g>
+    <path id="パス_535" data-name="パス 535" d="M260.111,156.713v8.4a.889.889,0,0,1-.889.889H245a.889.889,0,0,1-.889-.889V150.889A.889.889,0,0,1,245,150h7.691" transform="translate(-244.111 -150)" fill="none" stroke="#7e8195" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

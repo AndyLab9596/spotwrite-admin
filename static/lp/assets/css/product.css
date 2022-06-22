@@ -1,0 +1,157 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	index
+------------------------------------------------------------*/
+#main {
+	margin-bottom: 0;
+}
+.comInfo02 {
+	margin-bottom: 0;
+	padding: 34px 40px 36px;
+	width: 732px;
+}
+.pageTitle05 {
+	padding: 54px 0 94px;
+}
+.pageTitle05 .content .img {
+	bottom: -210px;
+}
+#main .bg {
+	padding: 83px 0 104px;
+	position: relative;
+}
+#main .bg::before {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: -130px;
+	background: #EEF3F6;
+	content: '';
+	z-index: -1;
+}
+#main .info h3 {
+	margin-bottom: 47px;
+	text-align: center;
+	font-size: 3.2rem;
+	font-family: ryo-gothic-plusn,sans-serif;
+	color: #2C7189;
+}
+
+#main .info h3 span {
+	margin-right: 23px;
+	font-size: 6.4rem;
+	font-weight: 600;
+	color: #48BEC9;
+}
+
+#main .info .infoUl {
+	margin: -24px 0 80px;
+}
+#main .info .infoUl li {
+	margin-top: 24px;
+	padding: 43px 40px 0;
+	width: 48.8%;
+	background-color: #fff;
+	border-radius: 8px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+#main .info .infoUl li h4 {
+	margin-bottom: 22px;
+	padding-left: 56px;
+	position: relative;
+	font-size: 2.4rem;
+	line-height: 1.416;
+}
+#main .info .infoUl li h4 img {
+	position: absolute;
+	width: 40px;
+	left: 0;
+	top: -3px;
+}
+#main .info .infoUl li .photo {
+	margin: 19px -40px 0;
+}
+#main .banner {
+	margin: -17px auto 0;
+	width: 487px;
+}
+#main .banner a:hover img {
+	opacity: 0.9;
+}
+@media all and (min-width: 897px) {
+
+	#main .info .h3Ttl {
+	color: #093D57;
+	font-size: 2.4rem;	
+}
+#main .info .h3Ttl span {
+	vertical-align: sub;
+}
+}
+@media all and (max-width: 896px) {
+		.pageTitle05 {
+		padding: 57px 0 60px;
+	}
+	.comTab {
+		margin-right: 0;
+		overflow-y: inherit;
+		justify-content: space-between;
+	}
+	.comTab li {
+		margin-right: 0;
+		width: 47.8%;
+	}
+	.comInfo02 {
+		margin: -54px 0 18px;
+		padding: 19px 24px 19px;
+		width: auto;
+	}
+	.comBanner {
+		margin-bottom: 23px;
+	}
+	#main .info h3 {
+		margin: 0 14px 44px;
+		font-size: 3.2rem;
+		line-height: 1.3125;
+		text-align: center;
+	}
+	#main .info h3 span {
+		margin: 0 0 -5px;
+		display: block;
+		font-size: 4rem;
+	}
+	#main .info .infoUl {
+		margin-bottom: 35px;
+		display: block;
+	}
+	#main .info .infoUl li {
+		padding: 27px 24px 0;
+		width: auto;
+	}
+	#main .info .infoUl li .photo {
+		margin: 19px -24px 0;
+	}
+	#main .info .infoUl li h4 {
+		margin-right: -23px;
+		padding-left: 56px;
+	}
+	#main .info .h3Ttl {
+		margin: 0 -4px 44px;
+	}
+	#main .banner {
+		width: auto;
+		margin: 40px 15px 0;
+	}
+	#main {
+		margin-bottom: 0 !important;
+	}
+	#main .bg {
+		padding: 0 0 40px;
+	}
+	#main .info .infoUl li .photo img {
+		width: 100%;
+	}
+
+}

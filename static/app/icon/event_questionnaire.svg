@@ -1,0 +1,20 @@
+<svg id="コンポーネント_196_1" data-name="コンポーネント 196 – 1" xmlns="http://www.w3.org/2000/svg" width="34" height="18" viewBox="0 0 34 18">
+  <g id="Icon_event3_white" data-name="Icon/event3_white">
+    <rect id="長方形_3895" data-name="長方形 3895" width="18" height="18" fill="#f08e8e" opacity="0"/>
+    <g id="グループ_3736" data-name="グループ 3736" transform="translate(3.74 3.74)">
+      <path id="パス_1012" data-name="パス 1012" d="M66.2,397.85H55.225l5.4-3.74Z" transform="translate(-55.225 -389.745)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="パス_1013" data-name="パス 1013" d="M61.226,391.656V388.15h4.59Z" transform="translate(-55.991 -388.15)" fill="#fff"/>
+      <g id="グループ_1882" data-name="グループ 1882" transform="translate(0.935 8.756)">
+        <line id="線_631" data-name="線 631" y2="2.217" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+        <line id="線_632" data-name="線 632" y2="2.217" transform="translate(9.22)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+  <g id="Icon_questionnaire_white" data-name="Icon/questionnaire_white" transform="translate(16)">
+    <rect id="長方形_3901" data-name="長方形 3901" width="18" height="18" fill="#4139f8" opacity="0"/>
+    <g id="グループ_3733" data-name="グループ 3733" transform="translate(3.74 3.74)">
+      <path id="パス_785" data-name="パス 785" d="M111.981,202.12v5.76a.609.609,0,0,1-.61.609h-9.754a.609.609,0,0,1-.609-.609v-9.755a.609.609,0,0,1,.609-.61h5.275" transform="translate(-101.008 -197.516)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="パス_786" data-name="パス 786" d="M110.955,200.417l-4.283,4.42-2.124-2.023" transform="translate(-101.034 -198.063)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

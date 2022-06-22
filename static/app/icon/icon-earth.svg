@@ -1,0 +1,11 @@
+<svg id="icon_earth" data-name="icon/earth" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <rect id="Rectangle_3986" data-name="Rectangle 3986" width="28" height="28" fill="red" opacity="0"/>
+  <g id="Group_4805" data-name="Group 4805" transform="translate(0 -1)">
+    <path id="Path_1474" data-name="Path 1474" d="M115.821,489.951a11.732,11.732,0,0,1-10.724-.018" transform="translate(-96.443 -480.934)" fill="none" stroke="#90747f" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Path_1475" data-name="Path 1475" d="M105.1,501.914a11.728,11.728,0,0,1,10.724.019" transform="translate(-96.443 -480.934)" fill="none" stroke="#90747f" stroke-miterlimit="10" stroke-width="1"/>
+    <circle id="Ellipse_2087" data-name="Ellipse 2087" cx="8" cy="8" r="8" transform="translate(6 7)" fill="none" stroke="#90747f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <ellipse id="Ellipse_2088" data-name="Ellipse 2088" cx="3.913" cy="8" rx="3.913" ry="8" transform="translate(10.087 7)" fill="none" stroke="#90747f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_802" data-name="Line 802" x1="15.741" transform="translate(6.129 15)" fill="none" stroke="#90747f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_803" data-name="Line 803" y2="16" transform="translate(14 7)" fill="none" stroke="#90747f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

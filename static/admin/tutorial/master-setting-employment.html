@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<title>雇用形態・役職のマスタを設定する</title>
+<link rel="stylesheet" type="text/css" href="assets/js/jquery.fancybox.css">
+<link rel="stylesheet" type="text/css" href="assets/js/jquery.jscrollpane.css">
+<link rel="stylesheet" type="text/css" href="assets/css/common/layout.css">
+<link rel="stylesheet" type="text/css" href="assets/css/common/general.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<script src="assets/js/head.js"></script>
+</head>
+<body>
+<div id="container">
+    <header id="gHeader">
+        <div class="hInner">
+            <h1><a href="./"><img src="assets/image/common/logo.png" alt="Spotwrite" width="112"></a></h1>
+        </div>
+    </header>
+    <div id="main">
+        <div class="master-setting-employment">
+            <div class="prevLink"><a href="#">戻る</a></div>
+            <section class="topTtlBox">
+                <h2><span class="txtSpan">マスタ設定の説明</span>雇用形態・役職のマスタを設定する</h2>
+            </section>
+            <div class="content">
+                <div class="comBox">
+                    <div class="subBox">
+                        <p><strong>雇用形態と役職のマスタを設定する画面です。<br>
+                            雇用形態はデフォルトで登録されていますが、役職は企業ごとにカスタマイズしましょう。<br>
+                            メンバー登録作業をする前に設定することをおすすめします。</strong></p>
+                    </div>
+                    <div class="photo"><img src="assets/image/common/com_box_photo.png" alt="マスタ設定の説明 雇用形態・役職のマスタを設定する" width="105"></div>
+                </div>
+                <div class="mainBox">
+                    <div class="comRightBox">
+                        <div class="comInner">
+                            <p class="comNum purple josefin">01</p>
+                            <p><strong>雇用形態を新規登録できます</strong></p>
+                            <p>社内の体制によって、デフォルトにない雇用形態を新規で登録することができます。</p>
+                            <div class="detailsLink"><a data-fancybox data-src="#pop01" href="javascript:void(0);"><span class="subSpan">役職・雇用形態とは</span></a></div>
+                        </div>
+                        <div class="comInner">
+                            <p class="comNum purple josefin">02</p>
+                            <p><strong>雇用形態の編集ができます</strong></p>
+                            <p>登録した雇用形態はここから編集ができます。<br>
+                                雇用形態の表示名は変更可能です。（例：アルバイト→クルーなど）<br>
+                                また、表示順はドラッグドロップで変更できます。<br>
+                                表示順はユーザー画面のメンバーリストに反映されます。</p>
+                        </div>
+                        <div class="comInner">
+                            <p class="comNum purple josefin">03</p>
+                            <p><strong>役職を新規登録できます</strong></p>
+                            <p>社内の体制によって、デフォルトにない役職を新規で登録することができます。</p>
+                            <div class="detailsLink"><a data-fancybox data-src="#pop01" href="javascript:void(0);"><span class="subSpan">役職・雇用形態とは</span></a></div>
+                        </div>
+                        <div class="comInner">
+                            <p class="comNum purple josefin">04</p>
+                            <p><strong>役職の編集ができます</strong></p>
+                            <p>登録した役職はここから編集ができます。<br>
+                                また、表示順はドラッグドロップで変更できます。<br>
+                                ユーザー画面のメンバーリストに反映されます。</p>
+                        </div>
+                        <div class="featuresBox">
+                            <h3><img src="assets/image/common/features_img.png" alt="関連機能" width="28">関連機能</h3>
+                            <ul class="linkUl">
+                                <li><a href="member-registration-required.html">メンバー登録</a></li>
+                                <li><a href="member-list.html">メンバー一覧・編集</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="comLeftBox">
+                        <div class="comTextImg"><img src="assets/image/master-setting-employment/photo01.png" alt="マスタ設定の説明 雇用形態・役職のマスタを設定する">
+                            <p class="text text03">新規で登録した雇用形態は削除可能。デフォルトである項目は削除できません</p>
+                            <p class="text text03 employmentTxt">新規で登録した役職は削除可能。デフォルトである項目は削除できません</p>
+                            <p class="text text02">保存ボタンで保存できます</p>
+                        </div>
+                        <div class="comTextImg employmentImg"><img src="assets/image/master-setting-employment/photo02.png" alt="マスタ設定の説明 雇用形態・役職のマスタを設定する" width="240">
+                            <p class="text text02">会社のメンバーリストは役職順に並びます</p>
+                            <p class="text employmentTxt02">従業員画面</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popBox popBox03" id="pop01">
+		<div class="popInner">
+			<div class="popClose"><a href="javascript:void(0);" data-fancybox-close=""><img src="assets/image/common/button_close.png" alt="close" width="28"></a></div>
+			<h2 class="popTtl">役職・雇用形態を設定する</h2>
+			<div class="popScroll scroll-pane">
+				<div class="subScroll"><div class="comBox">
+					<p>メンバーの役職や雇用形態を会社独自の形で登録できる機能です。<br>
+					会社独自の役職を登録したり、雇用形態の呼び方を変えたりもできます。</p>
+					<p>順番で重みをつけることができるので、メンバーリストを役職順に表示することができます。</p>
+					<div class="featuresBox features_through">
+						<h3><img src="assets/image/common/features_img.png" alt="関連機能" width="28">関連機能</h3>
+						<ul class="linkUl">
+							<li><a href="organization-registration.html">組織（BOX）登録</a></li>
+							<li><a href="member-list.html">メンバー一覧</a></li>
+							<li><a href="master-setting.html">マスタ設定</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="comInner">
+					<p class="comNum pink josefin">01</p>
+					<p>マスタから役職と雇用形態の設定ができます。<br>呼び方は会社独自に設定できます。「正社員」を「クルー」と設定するなど、自由にカスタムしてOK！</p>
+					<p>重みづけ機能で、高い役職からメンバーリストに表示する順番として並び替えることができます。</p>
+				</div>
+				<div class="img img01"><img src="assets/image/member-registration-method/pop_img01.png" width="948" alt="役職・雇用形態を設定する"><span class="posTxt01 txt01 txtIndent"><span>1. </span>プルダウンにあるリンクを<br>クリックします。</span><span class="posTxt01 txt02 txtIndent"><span>2. </span> ポップアップから役職や<br>雇用形態を登録できます。</span><span class="posTxt02 txt03">順番はドラッグ&amp;ドロップで変更。<br>重みづけができます</span><span class="posTxt02 txt04">プルダウンから簡易的に役職を<br>追加していくことが可能です</span></div>
+				<hr class="popLine">
+				<div class="img img02"><img src="assets/image/member-registration-method/pop_img02.png" width="755" alt="役職・雇用形態を設定する"><span class="posTxt01">従業員画面</span><span class="posTxt02">会社のメンバーリストは役職順<br>に並びます</span></div></div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="assets/js/jquery-1.12.4.min.js"></script> 
+<script src="assets/js/jquery.matchHeight.js"></script> 
+<script src="assets/js/jquery.fancybox.js"></script> 
+<script src="assets/js/jquery.mousewheel.js"></script> 
+<script src="assets/js/jquery.jscrollpane.js"></script> 
+<script src="assets/js/common.js"></script>
+</body>
+</html>

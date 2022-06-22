@@ -1,0 +1,7 @@
+<svg id="plus_pink" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <circle id="楕円形_216" data-name="楕円形 216" cx="10" cy="10" r="10" fill="#f09c9c"/>
+  <g id="グループ_1350" data-name="グループ 1350" transform="translate(5 5)">
+    <line id="線_373" data-name="線 373" y2="10" transform="translate(5)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="線_374" data-name="線 374" x2="10" transform="translate(0 5)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

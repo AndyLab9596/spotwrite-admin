@@ -1,0 +1,19 @@
+<svg id="button_check_off_b" xmlns="http://www.w3.org/2000/svg" width="150" height="26" viewBox="0 0 150 26">
+	<g id="button_bl">
+		<g id="Rectangle_1991" data-name="Rectangle 1991" fill="#dfe1ed" stroke="#e4e5ed" stroke-width="1">
+			<rect width="150" height="26" rx="4" stroke="none"/>
+			<rect x="0.5" y="0.5" width="149" height="25" rx="3.5" fill="none"/>
+		</g>
+		<text id="子BOXを表に出す" transform="translate(28 18)" fill="#6a6d83" font-size="13" font-family="YuGothicUI-Regular, Yu Gothic UI" font-weight="bold"><tspan x="0" y="0">子</tspan><tspan y="0" font-family="SegoeUI, Segoe UI">BOX</tspan><tspan y="0">を表に出す</tspan></text>
+	</g>
+	<g id="Form_-_Radiobutton_-_Empty" data-name="Form - Radiobutton - Empty" transform="translate(7 5)">
+		<g id="Ellipse_2373" data-name="Ellipse 2373" fill="#fff" stroke="#e4e5ed" stroke-width="1">
+			<circle cx="8" cy="8" r="8" stroke="none"/>
+			<circle cx="8" cy="8" r="7.5" fill="none"/>
+		</g>
+	</g>
+	<g id="余白確認" transform="translate(-337 -11)">
+		<rect id="Rectangle_5116" data-name="Rectangle 5116" width="7" height="25" transform="translate(360 11)" fill="#f3c5c5" opacity="0"/>
+		<rect id="Rectangle_5117" data-name="Rectangle 5117" width="14" height="25" transform="translate(473 11)" fill="#f3c5c5" opacity="0"/>
+	</g>
+</svg>

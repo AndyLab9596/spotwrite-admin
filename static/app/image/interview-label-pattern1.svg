@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192.726" height="48.585" viewBox="0 0 192.726 48.585">
+  <g id="Group_6609" data-name="Group 6609" transform="translate(0.442 0.265)">
+    <g id="Group_6608" data-name="Group 6608">
+      <g id="Group_6607" data-name="Group 6607">
+        <g id="Group_6602" data-name="Group 6602">
+          <path id="Path_3845" data-name="Path 3845" d="M2303.455,1503.045h-41.6l11.387,20.946-11.387,18.966h21.312" transform="translate(-2261.851 -1503.045)" fill="#89d3ca"/>
+          <path id="Path_3846" data-name="Path 3846" d="M2303.455,1503.045h-41.6l11.387,20.946-11.387,18.966h22.45" transform="translate(-2261.851 -1503.045)" fill="none" stroke="#998863" stroke-miterlimit="10" stroke-width="0.5"/>
+        </g>
+        <g id="Group_6603" data-name="Group 6603" transform="translate(150.24)">
+          <path id="Path_3847" data-name="Path 3847" d="M2334,1503.045h41.6l-11.387,20.946,11.387,18.966h-21.312" transform="translate(-2333.997 -1503.045)" fill="#89d3ca"/>
+          <path id="Path_3848" data-name="Path 3848" d="M2334,1503.045h41.6l-11.387,20.947,11.387,18.966h-22.45" transform="translate(-2333.997 -1503.045)" fill="none" stroke="#998863" stroke-miterlimit="10" stroke-width="0.5"/>
+        </g>
+        <g id="Group_6604" data-name="Group 6604" transform="translate(22.73)">
+          <path id="Path_3849" data-name="Path 3849" d="M2271.372,1510.6l18.874-7.555.04,7.555" transform="translate(-2271.372 -1503.045)" fill="#af977d"/>
+          <path id="Path_3850" data-name="Path 3850" d="M2271.372,1510.6l18.874-7.555.04,7.555" transform="translate(-2271.372 -1503.045)" fill="none" stroke="#998863" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.53"/>
+        </g>
+        <g id="Group_6605" data-name="Group 6605" transform="translate(150.24)">
+          <path id="Path_3851" data-name="Path 3851" d="M2353.036,1510.462,2334,1503.045l.047,7.743" transform="translate(-2333.997 -1503.045)" fill="#af977d"/>
+          <path id="Path_3852" data-name="Path 3852" d="M2353.036,1510.462,2334,1503.045l.047,7.743" transform="translate(-2333.997 -1503.045)" fill="none" stroke="#998863" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.53"/>
+        </g>
+        <g id="Group_6606" data-name="Group 6606" transform="translate(22.026 7.69)">
+          <rect id="Rectangle_5059" data-name="Rectangle 5059" width="147.848" height="40.38" transform="translate(-0.025 0.023)" fill="#89d3ca"/>
+          <rect id="Rectangle_5060" data-name="Rectangle 5060" width="147.848" height="40.38" transform="translate(-0.003)" fill="none" stroke="#998863" stroke-miterlimit="10" stroke-width="0.5"/>
+        </g>
+      </g>
+    </g>
+    <text id="INTERVIEW" transform="translate(52 33.214)" fill="#fff" font-size="14" font-family="Lato-Heavy, Lato" font-weight="800" letter-spacing="0.1em"><tspan x="0" y="0">INTERVIEW</tspan></text>
+  </g>
+</svg>

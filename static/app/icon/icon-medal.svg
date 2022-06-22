@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.876" height="25.026" viewBox="0 0 19.876 25.026">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="19.876" height="25.026" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="リピートグリッド_2" data-name="リピートグリッド 2" clip-path="url(#clip-path)">
+    <g id="グループ_5614" data-name="グループ 5614" transform="translate(-0.002)">
+      <g id="グループ_5613" data-name="グループ 5613" transform="translate(0.474 14.873)">
+        <g id="グループ_5610" data-name="グループ 5610" transform="translate(9.769)">
+          <path id="パス_2874" data-name="パス 2874" d="M400.868,74.686,403,71.4l3.967.872-3.057-7.743-6.1,2.41Z" transform="translate(-397.81 -64.533)" fill="#9c0f1a"/>
+          <g id="グループ_5609" data-name="グループ 5609" transform="translate(1.567 1.342)">
+            <line id="線_1274" data-name="線 1274" x1="1.714" y1="4.342" transform="translate(3.645)" fill="none" stroke="#edbf00" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+            <line id="線_1275" data-name="線 1275" x1="1.714" y1="4.342" transform="translate(0 1.439)" fill="none" stroke="#edbf00" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+          </g>
+        </g>
+        <g id="グループ_5612" data-name="グループ 5612">
+          <path id="パス_2875" data-name="パス 2875" d="M394.717,74.686,392.581,71.4l-3.967.872,3.057-7.743,6.1,2.41Z" transform="translate(-388.615 -64.533)" fill="#9c0f1a"/>
+          <g id="グループ_5611" data-name="グループ 5611" transform="translate(2.234 1.342)">
+            <line id="線_1276" data-name="線 1276" y1="4.342" x2="1.714" fill="none" stroke="#edbf00" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+            <line id="線_1277" data-name="線 1277" y1="4.342" x2="1.714" transform="translate(3.645 1.439)" fill="none" stroke="#edbf00" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.25"/>
+          </g>
+        </g>
+      </g>
+      <ellipse id="楕円形_2432" data-name="楕円形 2432" cx="9.938" cy="9.938" rx="9.938" ry="9.938" transform="translate(0 0)" fill="#edbf00"/>
+      <ellipse id="楕円形_2433" data-name="楕円形 2433" cx="7.542" cy="7.542" rx="7.542" ry="7.542" transform="translate(2.397 2.396)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

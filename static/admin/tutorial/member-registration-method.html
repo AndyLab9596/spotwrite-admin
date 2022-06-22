@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<title>メンバーの登録方法</title>
+<link rel="stylesheet" type="text/css" href="assets/js/jquery.fancybox.css">
+<link rel="stylesheet" type="text/css" href="assets/js/jquery.jscrollpane.css">
+<link rel="stylesheet" type="text/css" href="assets/css/common/layout.css">
+<link rel="stylesheet" type="text/css" href="assets/css/common/general.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<script src="assets/js/head.js"></script>
+</head>
+<body>
+<div id="container">
+    <header id="gHeader">
+        <div class="hInner">
+            <h1><a href="./"><img src="assets/image/common/logo.png" alt="Spotwrite" width="112"></a></h1>
+        </div>
+    </header>
+    <div id="main">
+        <div class="member-registration-method">
+            <div class="prevLink"><a href="#">戻る</a></div>
+            <section class="topTtlBox">
+                <h2><span class="txtSpan">メンバーの登録（必須項目）の説明</span>メンバーの登録方法</h2>
+            </section>
+            <div class="content">
+                <div class="comBox">
+                    <div class="subBox">
+                        <p><strong>メンバーを登録するために、必要な情報を表で入力していきます。<br>
+                            入力方法はこちらをご覧ください。</strong></p>
+                    </div>
+                    <div class="photo"><img src="assets/image/common/com_box_photo.png" alt="メンバーの登録（必須項目）の説明 メンバーの登録方法" width="105"></div>
+                </div>
+                <div class="mainBox">
+                    <div class="comTextImg"><div class="subPhoto"><img src="assets/image/member-registration-method/photo.png" alt="メンバーの登録（必須項目）の説明 メンバーの登録方法"></div>
+                        <p class="text text02">登録に必要な情報を入力すると、<br>
+                            フォームが赤から白になります</p>
+                    </div>
+                    <ul class="comInnerUl comInnerUl02">
+                        <li>
+                            <div class="comInner">
+                                <p class="comNum purple josefin">01</p>
+                                <p><strong>氏名とふりがなを入力します</strong></p>
+                                <p>ふりがなを入れると、メンバーのプロフィールに表示され、<a href="member-list.html" class="pinkLink">メンバー一覧</a>での並び替えにも利用されます。</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="comInner">
+                                <p class="comNum purple josefin">02</p>
+                                <p><strong>会社と所属組織を入力します</strong></p>
+                                <p><a href="organization-registration.html" class="pinkLink">組織（BOX）登録</a>で登録した会社と組織をここから選べます。</p>
+                                <p>１つの組織にまとめてメンバーを登録したい時は、<a href="member-registration-all.html" class="pinkLink">組織にまとめてメンバーを登録する</a>を参照してください。</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="comInner">
+                                <p class="comNum purple josefin">03</p>
+                                <p><strong>サブで所属する組織を入力します</strong></p>
+                                <p>メインで所属している組織の他に、複数の組織を兼任するメンバーにサブで所属する組織を設定することもできます。<br>
+                                    サブで設定すると、その組織のサブメンバーとして表示されるようになります。</p>
+                                <div class="detailsLink"><a data-fancybox data-src="#pop03" href="javascript:void(0);"><span class="subSpan">サブ組織を詳しく見る</span></a></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="comInner">
+                                <p class="comNum purple josefin">04</p>
+                                <p><strong>役職と雇用形態を入力します</strong></p>
+                                <p>登録したいメンバーの役職と雇用形態を設定します。<br>
+                                    役職と雇用形態は、あなたの会社独自のものを<a href="master-setting.html" class="pinkLink">マスタ設定</a>から設定することができますが、ここのプルダウンからも簡易的に登録できます。</p>
+                                <div class="detailsLink"><a data-fancybox data-src="#pop01" href="javascript:void(0);"><span class="subSpan">役職・雇用形態を詳しく見る</span></a></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="comInner">
+                                <p class="comNum purple josefin">05</p>
+                                <p><strong>Spotwriteの権限を設定します</strong></p>
+                                <p>Spotwriteの閲覧の権限を選択します。デフォルトが「メンバー」となっており、これは全ての記事がみられる権限です。<br>
+                                    閲覧する記事に制限をかけたいメンバーのみ「準メンバー」や「ビジター」の権限に変更します。</p>
+                                <div class="detailsLink"><a data-fancybox data-src="#pop02" href="javascript:void(0);"><span class="subSpan">利用権限とは</span></a></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="comInner">
+                                <p class="comNum purple josefin">06</p>
+                                <p><strong>登録ボタンを押して登録完了</strong></p>
+                                <p>全ての情報を入力したら、登録ボタンを押せるようになります。</p>
+                                <p>登録が完了すると、<a href="account-management.html" class="pinkLink">アカウント管理</a>からSpotwriteアカウントを発行できるようになります。</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="featuresBox features_through">
+                        <h3><img src="assets/image/common/features_img.png" alt="関連機能" width="28">関連機能</h3>
+                        <ul class="linkUl">
+                            <li><a href="organization-registration.html">組織（BOX）登録</a></li>
+                            <li><a href="member-list.html">メンバー一覧</a></li>
+                            <li><a href="master-setting.html">マスタ設定</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popBox popBox03" id="pop01">
+		<div class="popInner">
+			<div class="popClose"><a href="javascript:void(0);" data-fancybox-close=""><img src="assets/image/common/button_close.png" alt="close" width="28"></a></div>
+			<h2 class="popTtl">役職・雇用形態を設定する</h2>
+			<div class="popScroll scroll-pane">
+				<div class="subScroll"><div class="comBox">
+					<p>メンバーの役職や雇用形態を会社独自の形で登録できる機能です。<br>
+					会社独自の役職を登録したり、雇用形態の呼び方を変えたりもできます。</p>
+					<p>順番で重みをつけることができるので、メンバーリストを役職順に表示することができます。</p>
+					<div class="featuresBox features_through">
+						<h3><img src="assets/image/common/features_img.png" alt="関連機能" width="28">関連機能</h3>
+						<ul class="linkUl">
+							<li><a href="organization-registration.html">組織（BOX）登録</a></li>
+							<li><a href="member-list.html">メンバー一覧</a></li>
+							<li><a href="master-setting.html">マスタ設定</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="comInner">
+					<p class="comNum pink josefin">01</p>
+					<p>マスタから役職と雇用形態の設定ができます。<br>呼び方は会社独自に設定できます。「正社員」を「クルー」と設定するなど、自由にカスタムしてOK！</p>
+					<p>重みづけ機能で、高い役職からメンバーリストに表示する順番として並び替えることができます。</p>
+				</div>
+				<div class="img img01"><img src="assets/image/member-registration-method/pop_img01.png" width="948" alt="役職・雇用形態を設定する"><span class="posTxt01 txt01 txtIndent"><span>1. </span>プルダウンにあるリンクを<br>クリックします。</span><span class="posTxt01 txt02 txtIndent"><span>2. </span> ポップアップから役職や<br>雇用形態を登録できます。</span><span class="posTxt02 txt03">順番はドラッグ&amp;ドロップで変更。<br>重みづけができます</span><span class="posTxt02 txt04">プルダウンから簡易的に役職を<br>追加していくことが可能です</span></div>
+				<hr class="popLine">
+				<div class="img img02"><img src="assets/image/member-registration-method/pop_img02.png" width="755" alt="役職・雇用形態を設定する"><span class="posTxt01">従業員画面</span><span class="posTxt02">会社のメンバーリストは役職順<br>に並びます</span></div></div>
+			</div>
+		</div>
+	</div>
+    <div class="popBox popBox04" id="pop02">
+		<div class="popInner">
+			<div class="popClose"><a href="javascript:void(0);" data-fancybox-close=""><img src="assets/image/common/button_close.png" alt="close" width="28"></a></div>
+			<h2 class="popTtl">利用権限を設定する</h2>
+			<div class="popScroll scroll-pane">
+				<div class="subScroll"><div class="comBox">
+					<p>Spotwriteには、「メンバー」「準メンバー」「ビジター」の３つの権限があります。<br>それぞれ、記事が閲覧できる範囲と操作できる範囲が異なります。</p>
+					<div class="featuresBox features_through">
+						<h3><img src="assets/image/common/features_img.png" alt="関連機能" width="28">関連機能</h3>
+						<ul class="linkUl">
+							<li><a href="member-registration-required.html">メンバー登録</a></li>
+							<li><a href="member-list.html">メンバー一覧</a></li>
+							<li><a href="member-registration-required.html">メンバープロフィール</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="mainBox">
+					<div class="comInner">
+						<p class="comNum pink josefin">01</p>
+						<p>利用権限は、メンバー登録画面とメンバー個人詳細から設定することができます。<br>
+						設定された権限は、Spotwriteの記事の閲覧と操作の範囲に関わります。<br>
+						それぞれの権限の詳細は下記の通りです。</p>
+						<dl class="yelText">
+							<dt><span class="lineTxt">メンバー権限</span></dt>
+							<dd>
+								<ul class="txtList">
+									<li>・すべての記事が閲覧できる</li>
+									<li>・投稿ができる</li>
+								</ul>
+								<p class="boldTxt">社員におすすめ！</p>
+							</dd>
+							<dt><span class="lineTxt">準メンバー権限</span></dt>
+							<dd>
+								<ul class="txtList">
+									<li>・「メンバー限定」以外の記事が閲覧できる</li>
+									<li>・投稿ができる</li>
+								</ul>
+								<p class="boldTxt">アルバイトやパート、内定者は外部パートナーにおすすめ！</p>
+							</dd>
+							<dt>ビジター権限</dt>
+							<dd>
+								<ul class="txtList">
+									<li>・「メンバー・準メンバー限定」以外の記事が閲覧できる</li>
+									<li>・投稿ができない</li>
+								</ul>
+								<p class="boldTxt">社員の家族や新卒説明会の参会者などにおすすめ！</p>
+							</dd>
+						</dl>
+					</div>
+					<div class="img img01"><img src="assets/image/member-registration-method/pop_img03.png" width="609" alt="役職・雇用形態を設定する"></div>
+				</div>
+				<hr class="popLine">
+				<div class="img img02"><img src="assets/image/member-registration-method/pop_img04.png" width="755" alt="役職・雇用形態を設定する"><span class="posTxt01">従業員画面</span><span class="posTxt02 txt01">記事の公開範囲で「メンバー限定」などを選択可能</span><span class="posTxt02 txt02">ビジターは投稿メニューがクリックできません</span></div></div>
+			</div>
+		</div>
+	</div>
+    <div class="popBox popBox02" id="pop03">
+        <div class="popInner">
+            <div class="popClose"><a href="javascript:void(0);" data-fancybox-close=""><img src="assets/image/common/button_close.png" alt="close" width="28"></a></div>
+            <h2 class="popTtl">サブ組織を設定する</h2>
+            <div class="popScroll scroll-pane">
+               <div class="subScroll"> <div class="comBox">
+                    <p>ユーザー一人につき、メインの組織とは他にサブで所属する組織を複数選べます。<br>
+                        サブで所属すると、その組織のサブメンバーとしてメンバーリストに表示されたり、利用度の集計時にメンバーとしてカウントされます。<br>
+                        複数の組織を兼任しているマネージャーやリーダーなどにおすすめの機能です。</p>
+                    <div class="featuresBox features_through">
+                        <h3><img src="assets/image/common/features_img.png" alt="関連機能" width="28">関連機能</h3>
+                        <ul class="linkUl">
+                            <li><a href="organization-registration.html">組織（BOX）登録</a></li>
+                            <li><a href="member-list.html">メンバー一覧</a></li>
+                            <li><a href="master-setting.html">マスタ設定</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mainBox">
+                    <div class="lBox"><img src="assets/image/member-registration-all/pop_img01.png" width="449" alt="サブ組織を設定する"><span class="stepTxt">Step1</span></div>
+                    <div class="rBox">
+                        <div class="comInner comInner01">
+                            <p class="txt">まずは、メンバー詳細やメンバー登録画面でメンバーのサブ組織を設定します。<br>
+                                すると、Spotwriteのメンバーリストにそのメンバーがサブ所属として表示されるようになります。</p>
+                        </div>
+                        <div class="img"><img src="assets/image/member-registration-all/pop_img02.png" width="305" alt="サブ組織を設定する"><span class="stepTxt">Step2</span></div>
+                    </div>
+                </div>
+                <hr class="popLine">
+                <div class="mainBox mainBox01">
+                    <div class="comInner">
+                        <p class="comNum pink josefin">02</p>
+                        <p><strong>組織の代表者をサブメンバーから選べます</strong></p>
+                        <p>組織の代表者を選ぶときに、サブメンバーからも選ぶことができます。<br>
+                            複数の部署を統括する人がリーダーとしてメッセージを書くことができます。</p>
+                    </div>
+                    <div class="rBox"><img src="assets/image/member-registration-all/pop_img03.png" width="410" alt="サブ組織を設定する"></div>
+                </div>
+                <hr class="popLine">
+                <div class="mainBox mainBox02">
+                    <div class="comInner">
+                        <p class="comNum pink josefin">03</p>
+                        <p><strong>利用度やモチベーションチェック、会社データの対象になります</strong></p>
+                        <p>サブで所属するメンバーも、その組織の集計対象になります。会社データや利用度やモチベーションチェックなど、組織ごとに集計する項目はサブメンバーも自動的に含まれます。</p>
+                    </div>
+                    <div class="comInner">
+                        <p class="comNum pink josefin">04</p>
+                        <p><strong>メンバー一覧で組織を絞り込んだ時に表示されます</strong></p>
+                        <p>メンバー一覧で組織を絞り込んだ時、サブで所属しているメンバーはサブフラグの状態で表示されます。</p>
+                    </div>
+                </div>
+                <ul class="imgList">
+                    <li><img src="assets/image/member-registration-all/pop_img04.png" alt="サブ組織を設定する"></li>
+                    <li><img src="assets/image/member-registration-all/pop_img05.png" alt="サブ組織を設定する"></li>
+                    <li><img src="assets/image/member-registration-all/pop_img06.png" alt="サブ組織を設定する"></li>
+                </ul></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="assets/js/jquery-1.12.4.min.js"></script> 
+<script src="assets/js/jquery.matchHeight.js"></script> 
+<script src="assets/js/jquery.fancybox.js"></script> 
+<script src="assets/js/jquery.mousewheel.js"></script> 
+<script src="assets/js/jquery.jscrollpane.js"></script> 
+<script src="assets/js/common.js"></script>
+</body>
+</html>

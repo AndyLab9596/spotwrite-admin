@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.865" x2="0.142" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f09c9c"/>
+      <stop offset="1" stop-color="#7e8195"/>
+    </linearGradient>
+  </defs>
+  <g id="icon" transform="translate(-749.5 -892)">
+    <rect id="長方形_4160" data-name="長方形 4160" width="28" height="28" rx="11" transform="translate(749.5 892)" opacity="0.15" fill="url(#linear-gradient)"/>
+    <g id="グループ_3734" data-name="グループ 3734" transform="translate(755.5 898)">
+      <path id="パス_1012" data-name="パス 1012" d="M71.225,400.11h-16l7.869-6Z" transform="translate(-55.225 -388.075)" fill="none" stroke="#7e8195" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="パス_1013" data-name="パス 1013" d="M61.226,393.774V388.15h7.363Z" transform="translate(-54.431 -388.15)" fill="#7e8195"/>
+      <g id="グループ_1882" data-name="グループ 1882" transform="translate(1.5 12.443)">
+        <line id="線_631" data-name="線 631" y2="3.557" fill="none" stroke="#7e8195" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+        <line id="線_632" data-name="線 632" y2="3.557" transform="translate(13.188)" fill="none" stroke="#7e8195" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

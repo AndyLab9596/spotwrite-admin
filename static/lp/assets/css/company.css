@@ -1,0 +1,61 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	index
+------------------------------------------------------------*/
+.comInfo {
+    margin-bottom: 64px;
+}
+.comInfo02 {
+	margin-bottom: 64px;
+	padding: 34px 40px 36px;
+	width: 732px;
+}
+.mailForm {
+	width: 696px;
+	margin: 0 auto 104px;
+}
+.mailForm .radioUl li {
+	margin-bottom: 14px;
+}
+.mailForm .radioUl li:last-child {
+	margin-bottom: 0;
+}
+.mailForm .formDl {
+	margin-bottom: 11px;
+}
+.mailForm .formDl dt {
+	background-color: #EEF3F6;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	border-radius: 8px;
+}
+.mailForm .formDl dd {
+	padding: 10px 0 34px 250px;
+}
+@media all and (max-width: 896px) {
+	.mailForm {
+		margin-bottom: 0;
+		width: auto;
+	}
+	.comInfo02 {
+		margin: -59px 0 18px;
+		padding: 19px 25px;
+		width: auto;
+	}
+	.mailForm .formDl dt {
+		padding-top: 10px;
+	}
+	.mailForm .formDl dd {
+		padding: 0 0 18px 10px;
+	}
+	.mailForm .radioUl li {
+		margin-bottom: 6px;
+	}
+	
+	.mailForm textarea {
+		width: 100%;
+	}
+	.mailForm .formDl02 {
+		margin-bottom: 2px;
+	}
+}

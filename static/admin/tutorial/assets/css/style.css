@@ -1,0 +1,993 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	common
+------------------------------------------------------------*/
+.mainBox {
+/*    margin-bottom: 30px;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mainBox:last-child {
+    margin-bottom: 0;
+}
+.mainBox .comRightBox {
+    width: 320px;
+    order: 2;
+}
+.comInner {
+    margin-bottom: 40px;
+    padding: 40px 10px 9px;
+    border-radius: 8px;
+    position: relative;
+    background: linear-gradient(225deg,#ffddad 0%, #f7e9d2 100%);
+}
+.comInner:last-child {
+    margin-bottom: 0;
+}
+.comNum {
+    box-sizing: border-box;
+    padding-top: 4px;
+    width: 48px;
+    height: 48px;
+    background-color: #89D3CA;
+    border-radius: 16px;
+    font-size: 3.4rem;
+    font-weight: 600;
+    line-height: 1;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.comNum.purple {
+    background-color: #A792E0;
+}
+.comNum.pink {
+    background-color: #db76a2;
+}
+.comInner .comNum {
+    position: absolute;
+    top: -14px;
+    left: 10px;
+}
+.comInner p {
+    line-height: 1.2;
+    text-align: left;
+}
+.comInner p .pinkLink {
+    color: #F09C9C;
+}
+.comInner p .pinkLink:hover {
+    color: #f07f7f;
+    text-decoration: underline;
+}
+.comInner p:not(:last-child) {
+    margin-bottom: 16px;
+}
+.mainBox .comLeftBox {
+    width: 800px;
+}
+.featuresBox {
+    margin-top: -20px;
+    border-radius: 8px;
+    padding: 10px 10px 15px;
+    background-color: rgba(255,255,255,0.9);
+}
+.featuresBox h3 {
+    margin-bottom: 9px;
+    font-size: 1.3rem;
+    color: #2E303E;
+}
+.featuresBox h3 img {
+    margin-right: 12px;
+    vertical-align: -10px;
+}
+.featuresBox .linkUl {
+    margin-right: -4px;
+    padding: 0 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.featuresBox .linkUl li {
+    margin: 0 30px 1px 0;
+}
+.featuresBox .linkUl a {
+    font-size: 1.3rem;
+    color: #F09C9C;
+}
+.featuresBox .linkUl a:hover {
+    color: #F07F7F;
+    text-decoration: underline;
+}
+
+/*------------------------------------------------------------
+	master-setting.html
+------------------------------------------------------------*/
+.master-setting .comTextImg {
+    margin-bottom: 45px;
+}
+
+/*------------------------------------------------------------
+	organization-registration.html
+------------------------------------------------------------*/
+.comTextImg {
+/*    margin-bottom: 45px;*/
+    position: relative;
+    z-index: 1;
+}
+.comTextImg:last-child {
+    margin-bottom: 0;
+}
+.subPhoto img {
+    width: 100%;
+}
+.comTextImg .text {
+    font-weight: bold;
+    width: 217px;
+    position: absolute;
+    top: 123px;
+    right: 68px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid #FACE96;
+    border-radius: 5px;
+    background-color: #FFFBC7;
+    padding: 7px 7px 6px 10px;
+    line-height: 1.27;
+    color: #757265;
+}
+.comTextImg .text01:after {
+	width: 19px;  
+	height: 17px;
+    background: url("../image/common/top_arrow.png") no-repeat;
+    background-size: 100% auto;
+	position: absolute;  
+	top: -17px;
+	left: 50%;
+    transform: translateX(-50%);
+	content: ""; 
+}
+.comTextImg .text02 {
+    position: absolute;
+    top: 296px;
+    right: 53px;
+}
+.comTextImg .text02:after {
+	width: 17px;  
+	height: 16px;
+    background: url("../image/common/left_arrow.png") no-repeat;
+    background-size: 100% auto;
+	position: absolute;  
+	top: 13px;
+	left: -17px;
+	content: ""; 
+}
+.comTextImg .text03 {
+    position: absolute;
+    top: 538px;
+    right: 147px;
+    width: 201px;
+}
+.comTextImg .text03:after {
+	width: 17px;  
+	height: 17px;
+    background: url("../image/common/right_arrow.png") no-repeat;
+    background-size: 100% auto;
+	position: absolute;  
+	top: 11px;
+	right: -17px;
+	content: ""; 
+}
+.comTextImg .text04 {
+    position: absolute;
+    bottom: 37px;
+    top: auto;
+    right: 79px;
+    width: 201px;
+}
+.comTextImg .text04:after {
+	width: 17px;  
+	height: 16px;
+    background: url("../image/common/left_bottom_arrow.png") no-repeat;
+    background-size: 100% auto;
+	position: absolute;  
+	bottom: 12px;
+	left: -17px;
+	content: ""; 
+}
+.comTextImg .text05 {
+    position: absolute;
+    bottom: 279px;
+    top: auto;
+    right: 159px;
+    width: 202px;
+}
+.comTextImg .text05::after {
+	width: 17px;  
+	height: 19px;
+    background: url("../image/common/right_bottom_arrow.png") no-repeat;
+    background-size: 100% auto;
+	position: absolute;  
+	bottom: 13px;
+	right: -17px;
+	content: ""; 
+}
+.comTextImg .text06 {
+    top: 77px;
+    right: 85px;
+    width: 201px;
+}
+.comTextImg .text06::after {
+	width: 18px;  
+	height: 17px;
+    background: url("../image/common/bottom_arrow.png") no-repeat;
+    background-size: 100% auto;
+	position: absolute;  
+	bottom: -17px;
+    left: 35px;
+	content: ""; 
+}
+
+/*------------------------------------------------------------
+	organizationbox-registration.html
+------------------------------------------------------------*/
+.organizationbox-registration .comTextImg .text {
+    width: 101px;
+    font-size: 1.1rem;
+    top: 242px;
+    right: 270px;
+    border-width: 1px;
+    padding: 5px 7px 4px 10px;
+}
+.organizationbox-registration .comTextImg .text02 {
+    top: 242px;
+    right: 48px;
+}
+.organizationbox-registration .comTextImg .text02::after,
+.organizationbox-registration .comTextImg .text::after {
+    display: none;
+}
+.comInnerUl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.comInnerUl > li {
+    margin-top: 40px;
+    width: 48.7%;
+}
+.comInnerUl li .comInner {
+/*    padding-bottom: 40px;*/
+    margin: 0;
+}
+
+
+/*------------------------------------------------------------
+	organization-list.html
+------------------------------------------------------------*/
+.organization-list .comBox {
+    padding-bottom: 35px;
+}
+.organization-list .comTextImg {
+    margin: 0 -3px 0 3px;
+    position: relative;
+}
+.organization-list .comTextImg .text02 {
+    top: 80px;
+    right: 227px;
+}
+.comInnerUl02 {
+    justify-content: flex-start;
+}
+.comInnerUl02 > li {
+    width: 31.6%;
+}
+.comInnerUl02 > li:nth-child(3n-1) {
+    margin-left: 2.6%;
+    margin-right: 2.6%;
+}
+.comInnerUl .featuresBox {
+    margin-top: 0;
+}
+/*
+.comInnerUl .comInner .detailsLink {
+    margin-top: 0;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+*/
+/*
+.comInnerUl > li .txt {
+    margin-bottom: 16px;
+}
+*/
+.organization-list .detailsLink {
+    margin-top: 26px;
+}
+
+/*------------------------------------------------------------
+	organization-edition.html
+------------------------------------------------------------*/
+.organization-edition .comTextImg {
+    margin-bottom: 0;
+}
+.organization-edition .comTextImg .text02 {
+    top: 200px;
+    right: auto;
+    left: 215px;
+    width: 171px;
+}
+
+/*------------------------------------------------------------
+	company-detail.html
+------------------------------------------------------------*/
+.company-detail .comBox {
+    min-height: 160px;
+}
+.company-detail .comTextImg .text01 {
+    width: 201px;
+    top: 51px;
+    right: 14px;
+}
+.company-detail .comTextImg .text01::after {
+    left: auto;
+    transform: none;
+    right: 45px;
+}
+.company-detail .comTextImg .text04 {
+    bottom: 42px;
+    right: 139px;
+}
+
+/*------------------------------------------------------------
+	company-data.html
+------------------------------------------------------------*/
+.company-data .comTextImg .text03 {
+    top: 16px;
+    right: 124px;
+}
+.company-data .comTextImg .text04 {
+    right: 100px;
+    bottom: 40px;
+    padding-right: 4px;
+    width: 215px;
+}
+
+/*------------------------------------------------------------
+	company-history.html
+------------------------------------------------------------*/
+.company-history .comTextImg .text01 {
+    top: 43px;
+    right: 15px;
+    width: 201px;
+}
+.company-history .comTextImg .text01::after {
+    left: auto;
+    transform: none;
+    right: 44px;    
+}
+.company-history .comTextImg .text04 {
+    top: 378px;
+    bottom: auto;
+    right: 115px;
+}
+
+/*------------------------------------------------------------
+	organization-detail.html
+------------------------------------------------------------*/
+.organization-detail .comBox {
+    min-height: 160px;
+}
+.organization-detail .comTextImg .text03 {
+    top: 16px;
+    right: 137px;
+}
+.organization-detail .comTextImg .text04 {
+    right: 149px;
+    bottom: 42px;
+}
+
+/*------------------------------------------------------------
+	organization-data.html
+------------------------------------------------------------*/
+.organization-data .comTextImg .text03 {
+    top: 15px;
+    right: 137px;
+}
+.organization-data .comTextImg .text05 {
+    bottom: 22px;
+    right: 85px;
+}
+.organization-data .mainBox {
+    margin-bottom: 30px;
+}
+.organization-data .mainBox:last-child {
+    margin-bottom: 0;
+}
+.organization-data .comTextImg .text04 {
+    right: 99px;
+    width: 216px;
+}
+
+/*------------------------------------------------------------
+	member-registration-required.html
+------------------------------------------------------------*/
+.member-registration-required .comBox {
+    min-height: 160px;
+}
+
+/*------------------------------------------------------------
+	member-registration-method.html
+------------------------------------------------------------*/
+.member-registration-method .comTextImg .text02 {
+    right: auto;
+    left: 256px;
+    width: 239px;
+    top: 280px;
+    padding-top: 10px;
+    padding-right: 0;
+}
+.features_through {
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.features_through h3 {
+    margin: 0;
+}
+.features_through .linkUl {
+    margin: 0 0 0 40px;
+}
+
+/*------------------------------------------------------------
+	member-registration-addition.html
+------------------------------------------------------------*/
+.member-registration-addition .comTextImg .text02 {
+    top: 256px;
+    right: 170px;
+    width: 244px;
+    padding-right: 5px;
+}
+.member-registration-addition .comTextImg .text02::after {
+    top: 7px;
+}
+
+/*------------------------------------------------------------
+	member-list.html
+------------------------------------------------------------*/
+.member-list .comBox {
+    min-height: 160px;
+}
+.member-list .comTextImg .text04 {
+    bottom: auto;
+    top: 54px;
+    right: 71px;
+    padding: 15px 0 12px 7px;
+    width: 191px;
+}
+.member-list .comTextImg .text05 {
+    bottom: auto;
+    top: 268px;
+    right: 197px;
+}
+
+/*------------------------------------------------------------
+	memberlist-item-description.html
+------------------------------------------------------------*/
+.memberlist-item-description .comBox h3 {
+    font-size: 1.8rem;
+}
+.comList {
+    margin-top: -9px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.comList li {
+    margin: 5px 15px 0 0;
+}
+.comList a {
+    display: block;
+    font-size: 1.3rem;
+    color: #F09C9C;
+    padding: 3px 10px;
+    border-radius: 50px;
+    background-color: rgba(255,255,255,0.5);
+}
+.comList a:hover {
+    color: #F07F7F;
+    background-color: rgba(255,255,255,0.8);
+}
+.comList span {
+    padding-left: 17px;
+    display: inline-block;
+    background: url("../image/common/down_arrow.png") no-repeat left center;
+    background-size: 10px auto;
+}
+.memberlist-item-description .comTextImg01 {
+    margin-left: -5px;
+}
+.memberlist-item-description .mainBox {
+    border-bottom: 1px solid white;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.memberlist-item-description .mainBox:last-child {
+    border: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/*------------------------------------------------------------
+	member-filter.html
+------------------------------------------------------------*/
+.member-filter .comTextImg .text04 {
+    bottom: auto;
+    top: 243px;
+    right: 179px;
+    width: 217px;
+}
+
+/*------------------------------------------------------------
+	member-information-registration.html
+------------------------------------------------------------*/
+.member-information-registration .comBox h3 {
+    margin-bottom: 17px;
+}
+.member-information-registration .comInnerUl {
+    padding-top: 10px;
+}
+.member-information-registration .comInnerUl > li {
+    width: 48.1%;
+}
+
+/*------------------------------------------------------------
+	member-information-required.html
+------------------------------------------------------------*/
+.member-information-required .comInnerUl > li {
+    width: 48.1%;
+}
+
+/*------------------------------------------------------------
+	member-information-addition.html
+------------------------------------------------------------*/
+.member-information-addition .comInnerUl > li {
+    width: 48.2%;
+}
+
+/*------------------------------------------------------------
+	member-information-profile.html
+------------------------------------------------------------*/
+.member-information-profile .comTextImg .text04 {
+    bottom: 215px;
+    right: 126px;
+    width: 216px;
+}
+
+/*------------------------------------------------------------
+	member-information-question.html
+------------------------------------------------------------*/
+.member-information-question .comTextImg .text04 {
+    right: 112px;
+    bottom: 31px;
+}
+
+/*------------------------------------------------------------
+	member-information-login.html
+------------------------------------------------------------*/
+.member-information-login .comTextImg .text05 {
+    right: auto;
+    left: 16px;
+    bottom: 346px;
+}
+
+/*------------------------------------------------------------
+	community-registration.html
+------------------------------------------------------------*/
+.community-registration .featuresBox .linkUl {
+    margin-right: -40px;
+}
+.community-registration .comTextImg .text01 {
+    top: 626px;
+    right: auto;
+    left: 232px;
+    width: 202px;
+}
+.community-registration .comTextImg .text01::after {
+    left: 37px;
+    transform: none;
+}
+.community-registration .comTextImg .text04 {
+    right: auto;
+    left: 52px;
+    bottom: 277px;
+}
+.community-registration .comTextImg .text02 {
+    top: 736px;
+    right: auto;
+    left: 56px;
+    width: 202px;
+}
+.comTextImg .text07 {
+    top: auto;
+    bottom: 19px;
+    left: 364px;
+    width: 70px;
+    padding: 2px 2px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/*------------------------------------------------------------
+	community-list.html
+------------------------------------------------------------*/
+.community-list .comTextImg .text02 {
+    top: 217px;
+    right: 36px;
+    width: 247px;
+}
+.community-list .comTextImg .text04 {
+    bottom: 848px;
+    right: 230px;
+}
+
+/*------------------------------------------------------------
+	community-add-member.html
+------------------------------------------------------------*/
+.community-add-member .comTextImg .text01 {
+    top: 521px;
+    right: auto;
+    left: 5px;
+}
+.community-add-member .comTextImg .text01::after {
+    left: 62px;
+    transform: none;
+}
+.community-add-member .comTextImg .text02 {
+    top: 12px;
+    width: 201px;
+    right: 262px;
+}
+.community-add-member .comTextImg .text04 {
+    width: 217px;
+    bottom: 124px;
+    right: 19px;
+}
+
+/*------------------------------------------------------------
+	community-setting.html
+------------------------------------------------------------*/
+.community-setting .comTextImg .text04 {
+    bottom: 256px;
+    right: 133px;
+    width: 231px;
+}
+
+/*------------------------------------------------------------
+	postingrules-list-organization.html
+------------------------------------------------------------*/
+.postingrules-list-organization .comTextImg .text04 {
+    bottom: auto;
+    top: 33px;
+    right: 134px;
+    width: 216px;
+}
+.postingrules-list-organization .comTextImg .organizationTxt {
+    top: 124px;
+    padding-right: 0;
+    padding-left: 8px;
+    width: 192px;
+    right: 44px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+}
+.postingrules-list-organization .comTextImg .text05 {
+    bottom: auto;
+    top: 326px;
+    right: 183px;
+}
+
+/*------------------------------------------------------------
+	postingrules-personal-organization.html
+------------------------------------------------------------*/
+.postingrules-list-community .comBox {
+    min-height: 160px;
+}
+.postingrules-list-community .comTextImg .text04 {
+    bottom: auto;
+    top: 33px;
+    right: 134px;
+    width: 216px;
+}
+.postingrules-list-community .comTextImg .organizationTxt {
+    top: 258px;
+    right: 73px;
+}
+
+/*------------------------------------------------------------
+	optionalpermissions-list.html
+------------------------------------------------------------*/
+.optionalpermissions-list .comTextImg .text04 {
+    bottom: auto;
+    top: 80px;
+    right: 146px
+}
+.optionalpermissions-list .comTextImg .text03 {
+    right: 82px;
+    top: 328px;
+}
+
+/*------------------------------------------------------------
+	master-setting-employment.html
+------------------------------------------------------------*/
+.master-setting-employment .comTextImg .text03 {
+    top: 541px;
+    right: auto;
+    left: 142px;
+}
+.master-setting-employment .comTextImg .employmentTxt {
+    top: 598px;
+    right: 88px;
+    left: auto;
+}
+.master-setting-employment .comTextImg .text02 {
+    top: auto;
+    right: 109px;
+    width: 201px;
+    bottom: 1px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+}
+.master-setting-employment .comTextImg {
+    margin-bottom: 10px;
+}
+.master-setting-employment .employmentImg {
+    margin-left: 76px;
+}
+.master-setting-employment .employmentImg .text02 {
+    right: auto;
+    left: 135px;
+    bottom: 27px;
+}
+.master-setting-employment .comTextImg .employmentTxt02 {
+    width: 70px;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 4px 2px 1px;
+    right: auto;
+    top: 12px;
+    left: 157px;
+}
+.master-setting-employment .comTextImg .employmentTxt02::after {
+    display: none;
+}
+
+
+/*------------------------------------------------------------
+	master-setting-job.html
+------------------------------------------------------------*/
+.master-setting-job .comTextImg .text04 {
+    right: 154px;
+    bottom: 187px;
+    width: 216px;
+}
+.master-setting-job .comTextImg .text02 {
+    top: 673px;
+    right: 277px;
+    width: 201px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+/*------------------------------------------------------------
+	master-setting-profile.html
+------------------------------------------------------------*/
+.master-setting-profile .comTextImg .text02 {
+    top: auto;
+    bottom: 13px;
+    right: 111px;
+    width: 201px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+/*------------------------------------------------------------
+	master-setting-enrollment.html
+------------------------------------------------------------*/
+.master-setting-enrollment .comTextImg .text02 {
+    top: auto;
+    bottom: 7px;
+    right: 113px;
+    width: 201px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+/*------------------------------------------------------------
+	function-addition.html
+------------------------------------------------------------*/
+.function-addition .comBox {
+    min-height: 160px;
+}
+
+/*------------------------------------------------------------
+	account-management.html
+------------------------------------------------------------*/
+.account-management .comBox h3 {
+    margin-bottom: 16px;
+}
+.account-management .comTextImg .text04 {
+    bottom: auto;
+    top: 79px;
+    right: 257px;
+}
+.account-management .comTextImg .text01 {
+    top: 468px;
+    right: auto;
+    left: 68px;
+}
+.account-management .comTextImg .text01::after {
+    left: 40px;
+    transform: none;
+}
+.account-management .comTextImg .text06 {
+    top: 108px;
+    right: 40px;
+}
+.account-management .comTextImg .managementTxt {
+    top: auto;
+    bottom: 68px;
+    right: 158px;
+    width: 217px;
+}
+.account-management .comTextImg .managementTxt::after {
+    left: 43px;
+}
+
+/*------------------------------------------------------------
+	posting-Internalcontact.html
+------------------------------------------------------------*/
+.posting-Internalcontact .comBox {
+    min-height: 160px;
+}
+
+/*------------------------------------------------------------
+	analysis-riyoudo.html
+------------------------------------------------------------*/
+.analysis-riyoudo .comBox {
+    min-height: 160px;
+}
+.analysis-riyoudo .comBox h3 {
+    margin-right: 70px;
+}
+.analysis-riyoudo .comTextImg .text04 {
+    bottom: auto;
+    top: 31px;
+    width: 216px;
+    right: 99px;
+}
+
+/*------------------------------------------------------------
+	analysis-riyoudo-term.html
+------------------------------------------------------------*/
+.analysis-riyoudo-term .comBox .subBox {
+    width: 91%;
+}
+.analysis-riyoudo-term .mainBox .comRightBox {
+    margin-top: 100px;
+}
+
+
+/*------------------------------------------------------------
+	post-theme.html
+------------------------------------------------------------*/
+.post-theme .comBox {
+    min-height: 160px;
+}
+.post-theme .comTextImg .text04 {
+    bottom: auto;
+    top: 87px;
+    right: 47px;
+}
+.post-theme .comTextImg .text01 {
+    top: 364px;
+    width: 201px;
+    right: 22px;
+}
+.post-theme .comTextImg .text01::after {
+    left: 77px;
+    transform: none;
+}
+.post-theme .comTextImg .themeTxt {
+    top: 550px;
+    width: 201px;
+    right: 46px;
+}
+.post-theme .comTextImg .themeTxt::after {
+    left: 35px;
+}
+
+
+/*------------------------------------------------------------
+	post-theme-setting.html
+------------------------------------------------------------*/
+.post-theme-setting .comTextImg .text01 {
+    top: 590px;
+    right: auto;
+    left: 234px;
+    width: 201px;
+}
+.post-theme-setting .comTextImg .text01::after {
+    left: 27px;
+    transform: none;
+}
+.post-theme-setting .comTextImg .text03 {
+    top: 674px;
+    right: 235px;
+}
+.post-theme-setting .comTextImg .settingTxt {
+    top: 614px;
+    right: auto;
+    left: 110px;
+    width: 102px;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 4px 2px 1px;
+}
+.post-theme-setting .comTextImg .settingTxt::after {
+    display: none;
+}
+
+/*------------------------------------------------------------
+	internal-files.html
+------------------------------------------------------------*/
+.internal-files .comBox {
+    padding-bottom: 31px;
+}
+.internal-files .comBox h3 {
+    margin-bottom: 25px;
+}
+.internal-files .detailsLink {
+    margin-top: 0;
+    justify-content: flex-start;
+}
+.internal-files .comBox p {
+    margin-bottom: 3px;
+}
+.internal-files .comTextImg .text04 {
+    width: 282px;
+    bottom: auto;
+    top: 125px;
+    right: 147px;
+}
+
+/*------------------------------------------------------------
+	analysis-riyoudo-relactive.html
+------------------------------------------------------------*/
+.analysis-riyoudo-relactive .mainBox {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+@media all and (-ms-high-contrast:none){
+    .master-setting-profile .comTextImg .text02,
+    .master-setting-enrollment .comTextImg .text02,
+    .postingrules-list-organization .comTextImg .organizationTxt，
+    .master-setting-profile .comTextImg .text02,
+    .master-setting-employment .comTextImg .text02 {
+        height: 50px;
+    }
+}

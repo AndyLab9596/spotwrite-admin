@@ -1,0 +1,26 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	index
+------------------------------------------------------------*/
+#main  {
+	margin-bottom: 0 !important;
+}
+#main .bg {
+	padding-bottom: 73px;
+	position: relative;
+}
+#main .bg::before {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background: #EEF3F6;
+	content: '';
+	z-index: -1;
+}
+@media all and (max-width: 896px) {
+	#main .bg {
+		padding-bottom: 41px;
+	}
+}

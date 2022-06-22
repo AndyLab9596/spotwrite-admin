@@ -1,0 +1,21 @@
+<svg id="icon_cake" data-name="icon/cake" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <rect id="Rectangle_3997" data-name="Rectangle 3997" width="28" height="28" fill="#fff" opacity="0"/>
+  <g id="Group_4815" data-name="Group 4815" transform="translate(1.143 -482.438)">
+    <path id="Path_1468" data-name="Path 1468" d="M19.323,501.3v1.461a1.7,1.7,0,0,1-1.724,1.674H8.378a1.7,1.7,0,0,1-1.724-1.674V501.3" fill="none" stroke="#90747f" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Path_1469" data-name="Path 1469" d="M6.268,494.7a.882.882,0,0,0-.893.87v4.557a1.094,1.094,0,0,0,1.954.691.286.286,0,0,1,.446,0,1.105,1.105,0,0,0,1.731-.005.282.282,0,0,1,.441,0,1.106,1.106,0,0,0,1.735,0,.282.282,0,0,1,.441,0,1.1,1.1,0,0,0,1.734,0,.282.282,0,0,1,.441,0,1.106,1.106,0,0,0,1.735,0,.282.282,0,0,1,.441,0,1.093,1.093,0,0,0,.867.42h0a1.1,1.1,0,0,0,.866-.418.282.282,0,0,1,.441,0,1.094,1.094,0,0,0,1.957-.688v-4.557a.882.882,0,0,0-.893-.87Z" fill="none" stroke="#90747f" stroke-miterlimit="10" stroke-width="1"/>
+    <g id="Group_3073" data-name="Group 3073" transform="translate(6.97 488.437)">
+      <g id="Group_3070" data-name="Group 3070">
+        <path id="Path_1470" data-name="Path 1470" d="M8.4,488.437c-3.223,3.932,0,4.816,0,4.816S11.624,492.369,8.4,488.437Z" transform="translate(-6.97 -488.437)" fill="#90747f"/>
+        <line id="Line_796" data-name="Line 796" y2="1.064" transform="translate(1.432 4.816)" fill="none"/>
+      </g>
+      <g id="Group_3071" data-name="Group 3071" transform="translate(4.586)">
+        <path id="Path_1471" data-name="Path 1471" d="M12.875,488.437c-3.223,3.932,0,4.816,0,4.816S16.1,492.369,12.875,488.437Z" transform="translate(-11.443 -488.437)" fill="#90747f"/>
+        <line id="Line_797" data-name="Line 797" y2="1.064" transform="translate(1.433 4.816)" fill="none"/>
+      </g>
+      <g id="Group_3072" data-name="Group 3072" transform="translate(9.173)">
+        <path id="Path_1472" data-name="Path 1472" d="M17.349,488.437c-3.223,3.932,0,4.816,0,4.816S20.572,492.369,17.349,488.437Z" transform="translate(-15.917 -488.437)" fill="#90747f"/>
+        <line id="Line_798" data-name="Line 798" y2="1.064" transform="translate(1.432 4.816)" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
